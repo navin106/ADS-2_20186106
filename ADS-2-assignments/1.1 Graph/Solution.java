@@ -9,6 +9,8 @@ interface Graph {
 }
 public class Solution {
 	private Solution() {
+	}
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String dc = sc.nextLine();
 		int vertices = sc.nextInt();

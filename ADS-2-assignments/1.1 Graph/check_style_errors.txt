@@ -46,5 +46,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:10: Class Solution should be declared as final. [FinalClass]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:10: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:11:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:13:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:13:33: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 19 errors.
