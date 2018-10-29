@@ -15,6 +15,7 @@ public class Solution {
 		String dc = sc.nextLine();
 		int vertices = sc.nextInt();
 		int edges = sc.nextInt();
+		sc.nextLine();
 		String[] keys = sc.nextLine().split(",");
 		System.out.println(Arrays.toString(keys));
 		/*for (int i = 0; i < edges; i++) {
