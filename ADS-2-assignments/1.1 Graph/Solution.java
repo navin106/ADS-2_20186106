@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 interface Graph {
 	public int V();
 	public int E();
@@ -240,7 +239,6 @@ public class Solution {
 		int edges = sc.nextInt();
 		sc.nextLine();
 		String[] keys = sc.nextLine().split(",");
-		System.out.println(Arrays.toString(keys));
 		if (dc.equals("List")) {
 			GraphList list = new GraphList(vertices);
 			for (int i = 0; i < vertices; i++) {
@@ -250,9 +248,15 @@ public class Solution {
 			}
 			System.out.println(list.display(keys));
 		}
-		/*if (dc.equals("Matrix")) {
-
-		}*/
+		if (dc.equals("Matrix")) {
+			GraphMatrix mat = new GraphMatrix(vertices);
+			for (int i = 0; i < vertices; i++) {
+				String[] edgeInp = sc.nextLine().split(" ");
+                mat.addEdge(Integer.parseInt(edgeInp[0]),
+                             Integer.parseInt(edgeInp[1]));
+			}
+			System.out.println(keys);
+		}
 	}
 }
 
