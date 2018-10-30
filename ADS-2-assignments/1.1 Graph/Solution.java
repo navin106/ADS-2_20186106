@@ -255,7 +255,7 @@ public class Solution {
                 mat.addEdge(Integer.parseInt(edgeInp[0]),
                              Integer.parseInt(edgeInp[1]));
 			}
-			System.out.println(keys);
+			System.out.println(mat);
 		}
 	}
 }
