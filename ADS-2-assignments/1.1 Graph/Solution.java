@@ -4,32 +4,32 @@ import java.util.Scanner;
  */
 interface Graph {
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
-    public int ver();
+    int ver();
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
-    public int ed();
+    int ed();
     /**
      * Adds an edge.
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      */
-    public void addEdge(int v, int w);
+    void addEdge(int v, int w);
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      v     { parameter_description }
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<Integer> adj(int v);
+    Iterable<Integer> adj(int v);
     /**
      * Determines if it has edge.
      *
@@ -38,7 +38,7 @@ interface Graph {
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(int v, int w);
+    boolean hasEdge(int v, int w);
 }
 /**
  * List of graphs.
@@ -72,7 +72,7 @@ class GraphList implements Graph {
     /**
      * vertices.
      *
-     * @retu rn     { description_of_the_return_value }
+     * @return     { description_of_the_return_value }
      */
     public int ver() {
         return this.vertices;
@@ -273,7 +273,7 @@ public final class Solution {
     private Solution() {
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      args  The arguments
      */
