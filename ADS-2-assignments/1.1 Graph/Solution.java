@@ -229,10 +229,21 @@ class GraphMatrix implements Graph {
         return s.substring(0, s.length() -  1);
     }
 }
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+	/**
+	 * constructor.
+	 */
 	private Solution() {
 	}
-	public static void main(String[] args) {
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String dc = sc.nextLine();
 		int vertices = sc.nextInt();
