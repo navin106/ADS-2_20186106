@@ -1,10 +1,44 @@
 import java.util.Scanner;
+/**
+ * Interface for graph.
+ */
 interface Graph {
-	public int V();
-	public int E();
-	public void addEdge(int v, int w);
-	public Iterable<Integer> adj(int v);
-	public boolean hasEdge(int v, int w);
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public int ver();
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public int ed();
+    /**
+     * Adds an edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     */
+    public void addEdge(int v, int w);
+    /**
+     * { function_description }
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public Iterable<Integer> adj(int v);
+    /**
+     * Determines if it has edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     True if has edge, False otherwise.
+     */
+    public boolean hasEdge(int v, int w);
 }
 /**
  * List of graphs.
@@ -40,7 +74,7 @@ class GraphList implements Graph {
      *
      * @retu rn     { description_of_the_return_value }
      */
-    public int V() {
+    public int ver() {
         return this.vertices;
     }
     /**
@@ -48,7 +82,7 @@ class GraphList implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int E() {
+    public int ed() {
         return this.edge;
     }
     /**
@@ -172,7 +206,7 @@ class GraphMatrix implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int V() {
+    public int ver() {
         return this.vertices;
     }
     /**
@@ -180,7 +214,7 @@ class GraphMatrix implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int E() {
+    public int ed() {
         return this.edges;
     }
     /**
@@ -233,41 +267,41 @@ class GraphMatrix implements Graph {
  * Class for solution.
  */
 public final class Solution {
-	/**
-	 * constructor.
-	 */
-	private Solution() {
-	}
-	/**
-	 * { function_description }
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(final String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String dc = sc.nextLine();
-		int vertices = sc.nextInt();
-		int edges = sc.nextInt();
-		sc.nextLine();
-		String[] keys = sc.nextLine().split(",");
-		if (dc.equals("List")) {
-			GraphList list = new GraphList(vertices);
-			for (int i = 0; i < edges; i++) {
-				String[] edgeInp = sc.nextLine().split(" ");
+    /**
+     * constructor.
+     */
+    private Solution() {
+    }
+    /**
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String dc = sc.nextLine();
+        int vertices = sc.nextInt();
+        int edges = sc.nextInt();
+        sc.nextLine();
+        String[] keys = sc.nextLine().split(",");
+        if (dc.equals("List")) {
+            GraphList list = new GraphList(vertices);
+            for (int i = 0; i < edges; i++) {
+                String[] edgeInp = sc.nextLine().split(" ");
                 list.addEdge(Integer.parseInt(edgeInp[0]),
                              Integer.parseInt(edgeInp[1]));
-			}
-			System.out.println(list.display(keys));
-		}
-		if (dc.equals("Matrix")) {
-			GraphMatrix mat = new GraphMatrix(vertices);
-			for (int i = 0; i < edges; i++) {
-				String[] edgeInp = sc.nextLine().split(" ");
+            }
+            System.out.println(list.display(keys));
+        }
+        if (dc.equals("Matrix")) {
+            GraphMatrix mat = new GraphMatrix(vertices);
+            for (int i = 0; i < edges; i++) {
+                String[] edgeInp = sc.nextLine().split(" ");
                 mat.addEdge(Integer.parseInt(edgeInp[0]),
                              Integer.parseInt(edgeInp[1]));
-			}
-			System.out.println(mat);
-		}
-	}
+            }
+            System.out.println(mat);
+        }
+    }
 }
 
