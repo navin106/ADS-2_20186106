@@ -1,15 +1,4 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:24: First sentence should end with a period. [JavadocStyle]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:27:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:28: First sentence should end with a period. [JavadocStyle]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:36: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:37:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:38:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:93: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:105: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:108: First sentence should end with a period. [JavadocStyle]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Bag.java:115: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 10 errors.
 Starting audit...
 Audit done.

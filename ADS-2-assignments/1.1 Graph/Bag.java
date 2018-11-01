@@ -22,19 +22,24 @@ import java.util.NoSuchElementException;
  */
 public class Bag<Item> implements Iterable<Item> {
     /**
-     * { var_description }
+     * { var_description }.
      */
-    private int N;         // number of elements in bag
+    private int n;         // number of elements in bag
     /**
-     * { var_description }
+     * { var_description }.
      */
     private Node first;    // beginning of bag
-
-    //
-    // helper linked list class
-    //
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * { var_description }.
+         */
         private Item item;
+        /**
+         * { var_description }.
+         */
         private Node next;
     }
 
@@ -43,7 +48,7 @@ public class Bag<Item> implements Iterable<Item> {
       */
     public Bag() {
         first = null;
-        N = 0;
+        n = 0;
     }
 
     /**
@@ -61,7 +66,7 @@ public class Bag<Item> implements Iterable<Item> {
       * @return     { description_of_the_return_value }
       */
     public int size() {
-        return N;
+        return n;
     }
 
     /**
@@ -74,7 +79,7 @@ public class Bag<Item> implements Iterable<Item> {
         first = new Node();
         first.item = item;
         first.next = oldfirst;
-        N++;
+        n++;
     }
 
 
@@ -86,10 +91,9 @@ public class Bag<Item> implements Iterable<Item> {
     public Iterator<Item> iterator()  {
         return new ListIterator();
     }
-
-    //
-    // an iterator, doesn't implement remove() since it's optional
-    //
+    /**
+     * Class for list iterator.
+     */
     private class ListIterator implements Iterator<Item> {
         /**
          * { var_description }.
@@ -102,18 +106,18 @@ public class Bag<Item> implements Iterable<Item> {
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext()  {
-            return current != null; 
+            return current != null;
         }
 
         /**
-         * { function_description }
+         * { function_description }.
          */
         public void remove()      {
             throw new UnsupportedOperationException();
         }
 
         /**
-         * { function_description }
+         * { function_description }.
          *
          * @return     { description_of_the_return_value }
          */
