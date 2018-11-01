@@ -38,7 +38,7 @@ class GraphList implements Graph {
     /**
      * vertices.
      *
-     * @return     { description_of_the_return_value }
+     * @retu rn     { description_of_the_return_value }
      */
     public int V() {
         return this.vertices;
@@ -241,7 +241,7 @@ public class Solution {
 		String[] keys = sc.nextLine().split(",");
 		if (dc.equals("List")) {
 			GraphList list = new GraphList(vertices);
-			for (int i = 0; i < vertices; i++) {
+			for (int i = 0; i < edges; i++) {
 				String[] edgeInp = sc.nextLine().split(" ");
                 list.addEdge(Integer.parseInt(edgeInp[0]),
                              Integer.parseInt(edgeInp[1]));
@@ -250,7 +250,7 @@ public class Solution {
 		}
 		if (dc.equals("Matrix")) {
 			GraphMatrix mat = new GraphMatrix(vertices);
-			for (int i = 0; i < vertices; i++) {
+			for (int i = 0; i < edges; i++) {
 				String[] edgeInp = sc.nextLine().split(" ");
                 mat.addEdge(Integer.parseInt(edgeInp[0]),
                              Integer.parseInt(edgeInp[1]));

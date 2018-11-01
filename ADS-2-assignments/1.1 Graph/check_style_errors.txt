@@ -43,6 +43,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:6:9: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:7:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:43: Expected @return tag. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:43:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:51:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:175:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
@@ -53,4 +54,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:235:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/1.1 Graph/Solution.java:235:33: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 24 errors.
