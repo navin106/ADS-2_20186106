@@ -80,13 +80,13 @@ class Percolation {
         if (top >= 0) {
             linkOpenSites(index, top);
         }
-        if (col == 1) {
+        if (row == 1) {
             if (col != n) {
                 linkOpenSites(index, index + 1);
             }
             return;
         }
-        if (col == n) {
+        if (row == n) {
             linkOpenSites(index, index - 1);
             return;
         }
