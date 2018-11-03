@@ -450,18 +450,10 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:4:18: Variable 'pray' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:18: Parameter df should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:11:37: '1000' is a magic number. [MagicNumber]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:16:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:16:22: Parameter v should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:33:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:33:35: Parameter list should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:33:50: Parameter g should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:35:20: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:37:28: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:38:36: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:39:43: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:40: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:40:73: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:23:45: '1000' is a magic number. [MagicNumber]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:40: Line is longer than 80 characters (found 92). [LineLength]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:48:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:60: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:65: Missing a Javadoc comment. [JavadocType]
@@ -473,4 +465,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:88: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:99: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 30 errors.
+Checkstyle ends with 22 errors.
