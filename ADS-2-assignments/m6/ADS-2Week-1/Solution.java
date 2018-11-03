@@ -17,13 +17,13 @@ class PageRank {
 			pr = 0.0;
 
 		} else {
-			for (int j = 0; j < 1000; j++) {
+			// for (int j = 0; j < 1000; j++) {
 				t = 0.0;
 				for (int i : digr.adj(v)) {
 					t += pray[i] / digr.outdegree(i);
 					pray[i] = t;
 				}
-			}
+			// }
 		}
 		return pr;
 	}
