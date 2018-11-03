@@ -25,7 +25,7 @@ class PageRank {
 				}
 			// }
 		}
-		return t;
+		return pray[v];
 	}
 	public String toString() {
 		String str = "";
