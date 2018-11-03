@@ -27,12 +27,7 @@ class PageRank {
 					pray[i] = t;
 				}
 			}
-			return t;
-		}
-	}
-		/*public double[] pagerlist(double[] pray, Digraph digr) {
-		double[] l = new double[pray.length];
-		for (int i = 0; i < digr.V(); i++) {
+			/*for (int i = 0; i < digr.V(); i++) {
 			double temp = 0.0;
 			// for (int j = 0; j < digr.V(); j++) {
 				for (int each : digr.adj(i)) {
@@ -42,9 +37,10 @@ class PageRank {
 				}
 			// }
 			pray[i] = temp;
+		}*/
+			return t;
 		}
-		return l;
-	}*/
+	}
 	public String toString() {
 		String str = "";
 		str += digr + "\n";
