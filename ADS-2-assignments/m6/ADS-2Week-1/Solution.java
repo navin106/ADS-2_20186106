@@ -12,10 +12,9 @@ class PageRank {
 
 	double getPR(int v) {
 		double pr = pray[v];
-		System.out.println(1.0/digr.V());
 		for(int j = 0; j < 1000; j++) {
 		for (int i: digr.adj(v)) {
-			pr = pr/digr.outdegree(i);
+			pr += pr/digr.outdegree(i);
 		}
 	}
 		return pr;
