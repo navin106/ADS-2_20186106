@@ -13,16 +13,16 @@ class PageRank {
 		}
 	}
 	public double[] pagerlist(double[] pray, Digraph digr) {
-		double[] l = new double[digr.V()];
+		double[] l = new double[pray.length];
 		for (int i = 0; i < digr.V(); i++) {
 			double temp = 0.0;
-			for (int j = 0; j < digr.V(); j++) {
-				for (int each : digr.adj(j)) {
-					// if (each == i) {
-						temp += pray[j] / (double)digr.outdegree(j);
-					// }
+			// for (int j = 0; j < digr.V(); j++) {
+				for (int each : digr.adj(i)) {
+					if (each == i) {
+						temp += pray[i] / (double)digr.outdegree(i);
+					}
 				}
-			}
+			// }
 			pray[i] = temp;
 		}
 		return l;
