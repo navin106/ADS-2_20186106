@@ -13,11 +13,16 @@ class PageRank {
 	double getPR(int v) {
 		double pr = pray[v];
 		double t;
-		for (int j = 0; j < 1000; j++) {
-			t = 0.0;
-			for (int i : digr.adj(v)) {
-				t += pray[i] / digr.outdegree(i);
-				pray[i] = t;
+		if (digr.indegree(v) == 0) {
+			pr = 0.0;
+
+		} else {
+			for (int j = 0; j < 1000; j++) {
+				t = 0.0;
+				for (int i : digr.adj(v)) {
+					t += pray[i] / digr.outdegree(i);
+					pray[i] = t;
+				}
 			}
 		}
 		return pr;
@@ -56,11 +61,11 @@ public class Solution {
 		}
 		for (int i = 0; i < vertices; i++) {
 			if (df.outdegree(i) == 0) {
-				for (int j = 0; j< vertices; j++) {
-					df.addEdge(j,i);
+				for (int j = 0; j < vertices; j++) {
+					df.addEdge(j, i);
 				}
 			}
-			
+
 		}
 		// Create page rank object and pass the graph object to the constructor
 		PageRank pr = new PageRank(df);
