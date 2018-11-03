@@ -6,7 +6,7 @@ class PageRank {
 		this.digr = df;
 		pray = new double[digr.V()];
 		for (int i = 0; i < pray.length; i++) {
-			pray[i] = 1.0 / digr.V();
+			pray[i] = 1.0 / (double)digr.V();
 		}
 	}
 

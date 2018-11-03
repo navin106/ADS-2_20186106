@@ -450,6 +450,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:4:18: Variable 'pray' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:18: Parameter df should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:9:49: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:13:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:13:22: Parameter v should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:15:25: '=' is not preceded with whitespace. [WhitespaceAround]
@@ -464,4 +465,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:70: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:81: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 22 errors.
