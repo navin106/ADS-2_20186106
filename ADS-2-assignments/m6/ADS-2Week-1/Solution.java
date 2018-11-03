@@ -18,9 +18,9 @@ class PageRank {
 			double temp = 0.0;
 			for (int j = 0; j < digr.V(); j++) {
 				for (int each : digr.adj(j)) {
-					if (each == i) {
+					// if (each == i) {
 						temp += pray[j] / (double)digr.outdegree(j);
-					}
+					// }
 				}
 			}
 			pray[i] = temp;
