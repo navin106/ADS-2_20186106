@@ -21,8 +21,9 @@ class PageRank {
 	}
 	public String toString() {
 		String str = "";
+		str += digr + "\n";
 		for (int i = 0; i < digr.V(); i++) {
-			str += i + " - " + getPR(i);
+			str += i + " - " + getPR(i) + "\n";
 		}
 		return str;
 	}
