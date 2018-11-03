@@ -11,21 +11,21 @@ class PageRank {
 	}
 
 	double getPR(int v) {
-		double pr = pray[v];
-		// double t;
+		// double pr = pray[v];
+		double t= pray[v];
 		if (digr.indegree(v) == 0) {
-			pr = 0.0;
+		t = 0.0;
 
 		} else {
 			// for (int j = 0; j < 1000; j++) {
-				// t = 0.0;
+				t = 0.0;
 				for (int i : digr.adj(v)) {
-					pr += pray[i] / digr.outdegree(i);
-					pray[i] = pr;
+					t += pray[i] / digr.outdegree(i);
+					pray[i] = t;
 				}
 			// }
 		}
-		return pr;
+		return t;
 	}
 	public String toString() {
 		String str = "";
