@@ -12,7 +12,7 @@ class PageRank {
 
 	double getPR(int v) {
 		double pr = 1/digr.V();
-		// System.out.println();
+		System.out.println(pr);
 		for(int j = 0; j < 1000; j++) {
 		for (int i: digr.adj(v)) {
 			pr = pr/digr.outdegree(i);
