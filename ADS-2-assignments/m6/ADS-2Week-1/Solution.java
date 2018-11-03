@@ -18,7 +18,7 @@ class PageRank {
 					temp = pr / digr.outdegree(i);
 					pr = temp + pr;
 				}
-			System.out.println("Mul");
+			// System.out.println("Mul");
 		}
 		return pr;
 	}
