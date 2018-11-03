@@ -1,9 +1,10 @@
 import java.util.Scanner;
 class PageRank {
 	Digraph digr;
-	double[] pray = new double[digr.V()];
+	double[] pray;
 	PageRank(Digraph df) {
 		this.digr = df;
+		pray = new double[digr.V()];
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1 / digr.V();
 		}
