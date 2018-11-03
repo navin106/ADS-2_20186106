@@ -8,11 +8,11 @@ class PageRank {
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1.0 / digr.V();
 		}
-		for (int i = 0; i < 1000; i++) {
+		/*for (int i = 0; i < 1000; i++) {
 			pray = pagerlist(pray, digr);
-		}
+		}*/
 	}
-	public double[] pagerlist(double[] pray, Digraph digr) {
+	/*public double[] pagerlist(double[] pray, Digraph digr) {
 		double[] l = new double[pray.length];
 		for (int i = 0; i < digr.V(); i++) {
 			double temp = 0.0;
@@ -26,23 +26,23 @@ class PageRank {
 			pray[i] = temp;
 		}
 		return l;
-	}
+	}*/
 	double getPR(int v) {
-		// double pr = pray[v];
+		double pr = pray[v];
 		double t = pray[v];
-		// if (digr.indegree(v) == 0) {
-		// 	return 0.0;
+		if (digr.indegree(v) == 0) {
+			return 0.0;
 
-		// } else {
-			// for (int j = 0; j < 1000; j++) {
-			/*t = 0.0;
-			for (int i : digr.adj(v)) {
-				t += pray[i] / digr.outdegree(i);
-				pray[i] = t;
-			}*/
-			// }
+		} else {
+			for (int j = 0; j < 1000; j++) {
+				t = 0.0;
+				for (int i : digr.adj(v)) {
+					t += pray[i] / digr.outdegree(i);
+					pray[i] = t;
+				}
+			}
 			return t;
-		// }
+		}
 	}
 	public String toString() {
 		String str = "";
