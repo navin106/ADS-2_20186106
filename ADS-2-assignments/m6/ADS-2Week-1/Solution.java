@@ -12,13 +12,13 @@ class PageRank {
 
 	double getPR(int v) {
 		double pr = pray[v];
-		// double t = 0.0;
+		double t;
 		for (int j = 0; j < 1000; j++) {
+			t = 0.0;
 			for (int i : digr.adj(v)) {
-				pr += pray[i] / digr.outdegree(i);
-				pray[i] = pr;
+				t += pray[i] / digr.outdegree(i);
+				pray[i] = t;
 			}
-
 		}
 		return pr;
 	}
