@@ -54,6 +54,14 @@ public class Solution {
 				df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
 			}
 		}
+		for (int i = 0; i < vertices; i++) {
+			if (df.outdegree(i) == 0) {
+				for (int j = 0; j< vertices; j++) {
+					df.addEdge(j,i);
+				}
+			}
+			
+		}
 		// Create page rank object and pass the graph object to the constructor
 		PageRank pr = new PageRank(df);
 		// print the page rank object
