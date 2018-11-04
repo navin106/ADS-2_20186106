@@ -1,33 +1,22 @@
 import java.util.Scanner;
-import java.util.Arrays;
 class PageRank {
 	Digraph digr;
 	double[] pray;
 	PageRank(Digraph df) {
 		this.digr = df;
-		double temp = 0.0;
 		pray = new double[digr.V()];
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1.0 / digr.V();
-			// for (int j = 0; j <= 100; j++) {
-				for (int k : digr.adj(i)) {
-					temp += (pray[k] / digr.outdegree(k));
-				}
-				pray[i] = temp;
-				temp = 0.0;
-			
-
 		}
 
-		System.out.println(Arrays.toString(pray));
 	}
 	double getPR(int v) {
-		/*double temp = 0.0;
-		for (int i : digr.adj(v)) {
-			temp += (pray[i] / digr.outdegree(i));
+		double temp = 0.0;
+		for(int i:digr.adj(v)){
+			temp += (pray[i]/digr.outdegree(i));
 		}
-		pray[v] = temp;
-		temp = 0.0;*/
+		pray[v] =temp;
+		temp = 0.0;
 		return pray[v];
 	}
 	public String toString() {
