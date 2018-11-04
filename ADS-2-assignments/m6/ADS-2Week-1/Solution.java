@@ -8,11 +8,17 @@ class PageRank {
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1.0 / digr.V();
 		}
+
 	}
 	double getPR(int v) {
+		double temp = 0.0;
+		for(int i:digr.adj(v)){
+			temp += (pray[i]/digr.outdegree(i));
+		}
+		pray[v] =temp;
+		temp = 0.0;
 		return pray[v];
 	}
-
 	public String toString() {
 		String str = "";
 		str += digr + "\n";
