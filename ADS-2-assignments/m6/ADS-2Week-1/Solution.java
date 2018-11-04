@@ -12,14 +12,17 @@ class PageRank {
 			pray = pagerlist(pray, digr);
 		}*/
 	}
-
 	double getPR(int v) {
+		return pray[v];
+	}
+
+	/*double getPR(int v) {
 		double pr = pray[v];
 		double t = pray[v];
-		if (digr.indegree(v) == 0) {
-			return 0.0;
+		// if (digr.indegree(v) == 0) {
+		// 	return 0.0;
 
-		} else {
+		// } else {
 			for (int j = 0; j < 1000; j++) {
 				t = 0.0;
 				for (int i : digr.adj(v)) {
@@ -38,9 +41,9 @@ class PageRank {
 			// }
 			pray[i] = temp;
 		}*/
-			return t;
-		}
-	}
+			// return t;
+		// }
+	// }*/
 	public String toString() {
 		String str = "";
 		str += digr + "\n";
