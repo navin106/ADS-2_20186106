@@ -1,4 +1,4 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 class PageRank {
 	Digraph digr;
 	double[] pray;
@@ -7,16 +7,25 @@ class PageRank {
 		pray = new double[digr.V()];
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1.0 / digr.V();
+			double temp = 0.0;
+			for (int j : digr.adj(i)) {
+				if (j == i) {
+					temp += (pray[j] / digr.outdegree(j));
+				}
+			}
+			pray[i] = temp;
+			temp = 0.0;
+
 		}
 
 	}
 	double getPR(int v) {
-		double temp = 0.0;
+		/*double temp = 0.0;
 		for(int i:digr.adj(v)){
 			temp += (pray[i]/digr.outdegree(i));
 		}
 		pray[v] =temp;
-		temp = 0.0;
+		temp = 0.0;*/
 		return pray[v];
 	}
 	public String toString() {
@@ -79,8 +88,8 @@ public class Solution {
 
 	}
 }
-*/
-import java.util.Scanner;
+
+/*import java.util.Scanner;
 import java.util.Arrays;
 class PageRank {
 	private Double[] prlist;
@@ -165,11 +174,11 @@ public class Solution {
 
 		// instantiate web search object
 		// and pass the page rank object and the file path to the constructor
-		
+
 		// read the search queries from std in
 		// remove the q= prefix and extract the search word
 		// pass the word to iAmFeelingLucky method of web search
 		// print the return value of iAmFeelingLucky
 
 	}
-}
+}*/
