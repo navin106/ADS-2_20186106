@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 class PageRank {
 	Digraph digr;
 	double[] pray;
@@ -13,11 +14,12 @@ class PageRank {
 					temp += (pray[k] / digr.outdegree(k));
 				}
 				pray[i] = temp;
+				temp = 0.0;
 			}
-			temp = 0.0;
 
 		}
 
+		System.out.println(Arrays.toString(pray));
 	}
 	double getPR(int v) {
 		/*double temp = 0.0;
