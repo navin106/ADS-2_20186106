@@ -13,8 +13,8 @@ class PageRank {
 					temp += (pray[k] / digr.outdegree(k));
 				}
 				pray[i] = temp;
-				temp = 0.0;
 			}
+			temp = 0.0;
 
 		}
 
