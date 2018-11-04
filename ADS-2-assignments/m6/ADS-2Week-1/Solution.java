@@ -9,13 +9,13 @@ class PageRank {
 		pray = new double[digr.V()];
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1.0 / digr.V();
-			for (int j = 0; j <= 100; j++) {
+			// for (int j = 0; j <= 100; j++) {
 				for (int k : digr.adj(i)) {
 					temp += (pray[k] / digr.outdegree(k));
 				}
 				pray[i] = temp;
 				temp = 0.0;
-			}
+			
 
 		}
 

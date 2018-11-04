@@ -450,7 +450,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:18: Variable 'pray' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:6:18: Parameter df should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:12:46: '100' is a magic number. [MagicNumber]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:18: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:24:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:24:22: Parameter v should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:33:9: Missing a Javadoc comment. [JavadocMethod]
