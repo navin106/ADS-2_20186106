@@ -14,7 +14,7 @@ class PageRank {
 				}
 			}
 			pray[i] = temp;
-			temp = 0.0;
+			// temp = 0.0;
 
 		}
 
