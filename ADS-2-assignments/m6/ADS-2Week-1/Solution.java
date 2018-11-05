@@ -37,7 +37,7 @@ class PageRank {
 	}
 	public String toString() {
 		String str = "";
-		str += digr.toString() + "\n";
+		// str += digr.toString() + "\n";
 		for ( int i = 0; i < pray.length; i++) {
 			str += i + " - " + getPR(i) + "\n";
 		}
@@ -105,7 +105,7 @@ public class Solution {
 				df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
 			}
 		}
-
+		System.out.println(df);
 		for (int i = 0; i < vertices; i++) {
 			if (df.outdegree(i) == 0) {
 				for (int j = 0; j < vertices; j++) {
