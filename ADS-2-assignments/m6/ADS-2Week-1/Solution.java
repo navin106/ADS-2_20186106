@@ -102,11 +102,11 @@ public class Solution {
 		int a = 0;
 		while (a < vertices) {
 			String[] k = sc.nextLine().split(" ");
-			for (int i = 0; i < vertices; i++) {
+			// for (int i = 0; i < vertices; i++) {
 				for (int j = 1; j < k.length; j++) {
 					df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
 				}
-			}
+			// }
 			a++;
 		}
 
