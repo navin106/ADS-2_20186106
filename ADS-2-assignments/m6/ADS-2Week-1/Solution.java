@@ -99,27 +99,12 @@ public class Solution {
 		// to read the adjacency list from std input
 		// and build the digr
 		Digraph df = new Digraph(vertices);
-		int a = 0;
-		while (a < vertices) {
 			String[] k = sc.nextLine().split(" ");
-			// for (int i = 0; i < vertices; i++) {
+			for (int i = 0; i < vertices; i++) {
 				for (int j = 1; j < k.length; j++) {
 					df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
 				}
-			// }
-			a++;
-		}
-
-
-
-		/*int i = 0;
-		while (i < v) {
-			String[] tokens = sc.nextLine().split(" ");
-			for (int j = 1; j < tokens.length; j++) {
-				g.addEdge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[j]));
 			}
-			i++;
-		}*/
 
 		for (int i = 0; i < vertices; i++) {
 			if (df.outdegree(i) == 0) {
