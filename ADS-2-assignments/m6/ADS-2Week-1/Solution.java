@@ -42,6 +42,7 @@ class PageRank {
 	}
 	public String toString() {
 		String str = "";
+		str += digr.toString();
 		for ( int i = 0; i < pray.length; i++) {
 			str += i + " - " + getPR(i) + "\n";
 		}
