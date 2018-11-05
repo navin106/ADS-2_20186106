@@ -21,9 +21,9 @@ class PageRank {
 		double[] l = new double[digr.V()];
 		for ( int j = 0; j < 1000; j++) {
 			for ( int i = 0; i < digr.V(); i++) {
-				pr = 0.0;
+				pr = 0.0000;
 				for (int each : reversedigr.adj(i)) {
-					pr += (pray[each] / digr.outdegree(each));
+					pr += ((double)pray[each] / (double)digr.outdegree(each));
 				}
 				l[i] = pr;
 			}
@@ -110,7 +110,7 @@ public class Solution {
 			if (df.outdegree(i) == 0) {
 				for (int j = 0; j < vertices; j++) {
 					if (i != j) {
-						df.addEdge(j, i);
+						df.addEdge(i, j);
 					}
 				}
 			}
