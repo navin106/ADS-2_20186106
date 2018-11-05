@@ -1,5 +1,47 @@
 import java.util.Scanner;
 class PageRank {
+	Double[] pray;
+	Digraph digr;
+	Digraph reversegraph;
+	PageRank(Digraph g) {
+		digr = g;
+		pray = new Double[g.V()];
+		reversegraph = digr.reverse();
+		prcalculation();
+	}
+	public void prcalculation() {
+		Double pr = 0.0;
+		for (int i = 0; i < digr.V(); i++) {
+			if (digr.indegree(i) == 0) {
+				pray[i] = 0.0;
+			} else {
+				pray[i] = 1 / (double)digr.V();
+			}
+		}
+		double[] l = new double[digr.V()];
+		for ( int j = 0; j < 1000; j++) {
+			for ( int i = 0; i < digr.V(); i++) {
+				pr = 0.0000;
+				for (int each : reversegraph.adj(i)) {
+					pr += ((double)pray[each] / (double)digr.outdegree(each));
+				}
+				l[i] = pr;
+			}
+			for (int i = 0; i < digr.V(); i++) {
+				pray[i] = l[i];
+			}
+		}
+	}
+	double getPR(int v) {
+		return pray[v];
+	}
+	public void print() {
+		for ( int i = 0; i < pray.length; i++) {
+			System.out.println(i + " - " + getPR(i));
+		}
+	}
+}
+/*class PageRank {
 	Digraph digr;
 	double[] pray;
 	PageRank(Digraph df) {
@@ -7,7 +49,7 @@ class PageRank {
 		pray = new double[digr.V()];
 		for (int i = 0; i < pray.length; i++) {
 			pray[i] = 1.0 / digr.V();
-			// double temp = 0.0; 
+			// double temp = 0.0;
 			// for (int j : digr.adj(i)) {
 			// 	if (j == i) {
 			// 		temp += (pray[j] / digr.outdegree(j));
@@ -38,7 +80,7 @@ class PageRank {
 	}
 
 
-}
+}*/
 
 class WebSearch {
 
@@ -52,7 +94,7 @@ public class Solution {
 		int vertices = Integer.parseInt(sc.nextLine());
 		// iterate count of vertices times
 		// to read the adjacency list from std input
-		// and build the graph
+		// and build the digr
 		Digraph df = new Digraph(vertices);
 		for (int i = 0; i < vertices; i++) {
 			String[] k = sc.nextLine().split(" ");
