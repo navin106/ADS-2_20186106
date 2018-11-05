@@ -99,12 +99,12 @@ public class Solution {
 		// to read the adjacency list from std input
 		// and build the digr
 		Digraph df = new Digraph(vertices);
+		for (int i = 0; i < vertices; i++) {
 			String[] k = sc.nextLine().split(" ");
-			for (int i = 0; i < vertices; i++) {
-				for (int j = 1; j < k.length; j++) {
-					df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
-				}
+			for (int j = 1; j < k.length; j++) {
+				df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
 			}
+		}
 
 		for (int i = 0; i < vertices; i++) {
 			if (df.outdegree(i) == 0) {
