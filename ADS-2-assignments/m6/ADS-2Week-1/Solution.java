@@ -21,9 +21,9 @@ class PageRank {
 		double[] l = new double[digr.V()];
 		for ( int j = 0; j < 1000; j++) {
 			for ( int i = 0; i < digr.V(); i++) {
-				pr = 0.0000;
+				pr = 0.0;
 				for (int each : reversedigr.adj(i)) {
-					pr += ((double)pray[each] / (double)digr.outdegree(each));
+					pr += (pray[each] / digr.outdegree(each));
 				}
 				l[i] = pr;
 			}
