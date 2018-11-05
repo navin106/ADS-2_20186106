@@ -7,10 +7,6 @@ class PageRank {
 		digr = g;
 		pray = new Double[g.V()];
 		reversedigr = digr.reverse();
-		prcalculation();
-	}
-	public void prcalculation() {
-		Double pr = 0.0;
 		for (int i = 0; i < digr.V(); i++) {
 			if (digr.indegree(i) == 0) {
 				pray[i] = 0.0;
@@ -18,6 +14,11 @@ class PageRank {
 				pray[i] = 1 / (double)digr.V();
 			}
 		}
+		prcalculation();
+	}
+	public void prcalculation() {
+		Double pr = 0.0;
+
 		double[] l = new double[digr.V()];
 		for ( int j = 0; j < 1000; j++) {
 			for ( int i = 0; i < digr.V(); i++) {
