@@ -40,6 +40,13 @@ class PageRank {
 			System.out.println(i + " - " + getPR(i));
 		}
 	}
+	public String toString() {
+		String str = "";
+		for ( int i = 0; i < pray.length; i++) {
+			str += i + " - " + getPR(i);
+		}
+		return str;
+	}
 }
 /*class PageRank {
 	Digraph digr;
