@@ -120,7 +120,7 @@ public class Solution {
 		// Create page rank object and pass the graph object to the constructor
 		PageRank pr = new PageRank(df);
 		// print the page rank object
-		pr.print();
+		System.out.println(pr);
 
 		// This part is only for the final test case
 
