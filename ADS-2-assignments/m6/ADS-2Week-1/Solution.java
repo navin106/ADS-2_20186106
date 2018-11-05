@@ -43,7 +43,7 @@ class PageRank {
 	public String toString() {
 		String str = "";
 		for ( int i = 0; i < pray.length; i++) {
-			str += i + " - " + getPR(i);
+			str += i + " - " + getPR(i) + "\n";
 		}
 		return str;
 	}
