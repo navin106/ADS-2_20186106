@@ -108,7 +108,10 @@ public class Solution {
 		for (int i = 0; i < vertices; i++) {
 			if (df.outdegree(i) == 0) {
 				for (int j = 0; j < vertices; j++) {
-					df.addEdge(j, i);
+					if (i != j) {
+
+						df.addEdge(j, i);
+					}
 				}
 			}
 

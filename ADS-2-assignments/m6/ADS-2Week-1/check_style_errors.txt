@@ -471,7 +471,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:94:33: Parameter args should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:95: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:105: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:116: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:127: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:119: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:130: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
 Checkstyle ends with 31 errors.
