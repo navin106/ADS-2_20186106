@@ -35,14 +35,9 @@ class PageRank {
 	double getPR(int v) {
 		return pray[v];
 	}
-	public void print() {
-		for ( int i = 0; i < pray.length; i++) {
-			System.out.println(i + " - " + getPR(i));
-		}
-	}
 	public String toString() {
 		String str = "";
-		str += digr.toString();
+		str += digr.toString() + "\n";
 		for ( int i = 0; i < pray.length; i++) {
 			str += i + " - " + getPR(i) + "\n";
 		}
