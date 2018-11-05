@@ -449,7 +449,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:4:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:4:17: Variable 'digr' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:17: Variable 'reversegraph' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:5:17: Variable 'reversedigr' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:6:18: Parameter g should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m6/ADS-2Week-1/Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]

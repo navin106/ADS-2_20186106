@@ -2,11 +2,11 @@ import java.util.Scanner;
 class PageRank {
 	Double[] pray;
 	Digraph digr;
-	Digraph reversegraph;
+	Digraph reversedigr;
 	PageRank(Digraph g) {
 		digr = g;
 		pray = new Double[g.V()];
-		reversegraph = digr.reverse();
+		reversedigr = digr.reverse();
 		prcalculation();
 	}
 	public void prcalculation() {
@@ -22,7 +22,7 @@ class PageRank {
 		for ( int j = 0; j < 1000; j++) {
 			for ( int i = 0; i < digr.V(); i++) {
 				pr = 0.0000;
-				for (int each : reversegraph.adj(i)) {
+				for (int each : reversedigr.adj(i)) {
 					pr += ((double)pray[each] / (double)digr.outdegree(each));
 				}
 				l[i] = pr;
@@ -45,7 +45,7 @@ class PageRank {
 	}
 }
 /*class PageRank {
-	Digraph digr;
+	Didigr digr;
 	double[] pray;
 	PageRank(Digraph df) {
 		this.digr = df;
@@ -105,14 +105,14 @@ public class Solution {
 				df.addEdge(Integer.parseInt(k[0]), Integer.parseInt(k[j]));
 			}
 		}
-		// for (int i = 0; i < vertices; i++) {
-		// 	if (df.outdegree(i) == 0) {
-		// 		for (int j = 0; j < vertices; j++) {
-		// 			df.addEdge(j, i);
-		// 		}
-		// 	}
+		for (int i = 0; i < vertices; i++) {
+			if (df.outdegree(i) == 0) {
+				for (int j = 0; j < vertices; j++) {
+					df.addEdge(j, i);
+				}
+			}
 
-		// }
+		}
 		// Create page rank object and pass the graph object to the constructor
 		PageRank pr = new PageRank(df);
 		// print the page rank object
