@@ -80,7 +80,7 @@ public class SeamCarver {
 			down = pic.get(x, y + 1);
 			resx = Math.pow((right.getRed() - left.getRed()), 2) + Math.pow((right.getGreen() - left.getGreen()), 2) + Math.pow((right.getBlue() - left.getBlue()), 2);
 			resy = Math.pow((up.getRed() - down.getRed()), 2) + Math.pow((up.getGreen() - down.getGreen()), 2) + Math.pow((up.getBlue() - down.getBlue()), 2);
-			return Math.sqrt(resx + resy);
+			return Math.sqrt((resx + resy));
 		}
 
 	}
