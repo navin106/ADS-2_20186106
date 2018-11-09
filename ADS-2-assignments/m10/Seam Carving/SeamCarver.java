@@ -1,4 +1,4 @@
-
+import java.awt.Color;
 public class SeamCarver {
 	// create a seam carver object based on the given picture
 	private Picture pic;
@@ -28,42 +28,22 @@ public class SeamCarver {
 	public void setbottom(double  bottom) {
 		this.bottom = bottom;
 	}
-	public int getheight() {
-		return height;
-	}
 
-	public void setheight(int height) {
-		this.height = height;
-	}
-
-	public Picture getpic() {
-		return pic;
-	}
-
-	public void setpic(Picture pic) {
-		this.pic = pic;
-	}
-	public int getwidth() {
-		return width;
-	}
-
-	public void setwidth(int width) {
-		this.width = width;
-	}
 	public SeamCarver() {
-		
+
 	}
-	public SeamCarver(Picture picture) throws Exception {
+	public SeamCarver(Picture picture) {
 		this.pic = picture;
 		this.width = picture.width();
 		this.height = picture.height();
 		energy = new double[height][width];
 		if (pic == null) {
-			throw new Exception("picture is null");
+			// throw new Exception("picture is null");
+			throw new IllegalArgumentException("picture is null");
 		}
 		for (int i = 0; i < height; i++) {
-			for (int j=0; j<width; j++) {
-				energy[i][j] = energy(i, j);	
+			for (int j = 0; j < width; j++) {
+				energy[i][j] = energy(j, i);
 			}
 
 		}
@@ -71,21 +51,38 @@ public class SeamCarver {
 	}
 	// current picture
 	public Picture picture() {
-		return null;
+		return pic;
 	}
 	// width of current picture
 	public int width() {
-		return 0;
+		return width;
 	}
 
 	// height of current picture
 	public int height() {
-		return 0;
+		return height;
 	}
 
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
-		return 0;
+		double resx = 0.0;
+		double resy = 0.0;
+		Color right;
+		Color left;
+		Color up;
+		Color down;
+		if (x < 0 || x > width || y < 0 || y >= height) {
+			throw new IllegalArgumentException("picture is null");
+		} else {
+			right = pic.get(x - 1, y);
+			left = pic.get(x + 1, y);
+			up = pic.get(x, y - 1);
+			down = pic.get(x, y + 1);
+			resx = Math.pow((right.getRed() - left.getRed()), 2) + Math.pow((right.getGreen() - left.getGreen()), 2) + Math.pow((right.getBlue() - left.getBlue()), 2);
+			resy = Math.pow((up.getRed() - down.getRed()), 2) + Math.pow((up.getGreen() - down.getGreen()), 2) + Math.pow((up.getBlue() - down.getBlue()), 2);
+			return Math.sqrt(resx + resy);
+		}
+
 	}
 
 	// sequence of indices for horizontal seam
