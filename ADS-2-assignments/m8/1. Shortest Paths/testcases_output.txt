@@ -8,14 +8,15 @@ Expected Output:
 50
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: Bag
-	at EdgeWeightedGraph.<init>(EdgeWeightedGraph.java:19)
-	at Solution.main(Solution.java:36)
-Caused by: java.lang.ClassNotFoundException: Bag
+Exception in thread "main" java.lang.NoClassDefFoundError: Bag$Node
+	at Bag.add(Bag.java:97)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:139)
+	at Solution.main(Solution.java:40)
+Caused by: java.lang.ClassNotFoundException: Bag$Node
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-	... 2 more
+	... 3 more
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,14 +29,15 @@ Expected Output:
 30
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: Bag
-	at EdgeWeightedGraph.<init>(EdgeWeightedGraph.java:19)
-	at Solution.main(Solution.java:36)
-Caused by: java.lang.ClassNotFoundException: Bag
+Exception in thread "main" java.lang.NoClassDefFoundError: Bag$Node
+	at Bag.add(Bag.java:97)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:139)
+	at Solution.main(Solution.java:40)
+Caused by: java.lang.ClassNotFoundException: Bag$Node
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-	... 2 more
+	... 3 more
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -741,14 +743,15 @@ Expected Output:
 29
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: Bag
-	at EdgeWeightedGraph.<init>(EdgeWeightedGraph.java:19)
-	at Solution.main(Solution.java:36)
-Caused by: java.lang.ClassNotFoundException: Bag
+Exception in thread "main" java.lang.NoClassDefFoundError: Bag$Node
+	at Bag.add(Bag.java:97)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:139)
+	at Solution.main(Solution.java:40)
+Caused by: java.lang.ClassNotFoundException: Bag$Node
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-	... 2 more
+	... 3 more
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -4207,14 +4210,15 @@ Expected Output:
 22
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: Bag
-	at EdgeWeightedGraph.<init>(EdgeWeightedGraph.java:19)
-	at Solution.main(Solution.java:36)
-Caused by: java.lang.ClassNotFoundException: Bag
+Exception in thread "main" java.lang.NoClassDefFoundError: Bag$Node
+	at Bag.add(Bag.java:97)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:139)
+	at Solution.main(Solution.java:40)
+Caused by: java.lang.ClassNotFoundException: Bag$Node
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-	... 2 more
+	... 3 more
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -6588,14 +6592,15 @@ Expected Output:
 216
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: Bag
-	at EdgeWeightedGraph.<init>(EdgeWeightedGraph.java:19)
-	at Solution.main(Solution.java:36)
-Caused by: java.lang.ClassNotFoundException: Bag
+Exception in thread "main" java.lang.NoClassDefFoundError: Bag$Node
+	at Bag.add(Bag.java:97)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:139)
+	at Solution.main(Solution.java:40)
+Caused by: java.lang.ClassNotFoundException: Bag$Node
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-	... 2 more
+	... 3 more
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -11552,13 +11557,14 @@ Expected Output:
 60
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: Bag
-	at EdgeWeightedGraph.<init>(EdgeWeightedGraph.java:19)
-	at Solution.main(Solution.java:36)
-Caused by: java.lang.ClassNotFoundException: Bag
+Exception in thread "main" java.lang.NoClassDefFoundError: Bag$Node
+	at Bag.add(Bag.java:97)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:139)
+	at Solution.main(Solution.java:40)
+Caused by: java.lang.ClassNotFoundException: Bag$Node
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-	... 2 more
+	... 3 more
 ----------------------------------------
 
