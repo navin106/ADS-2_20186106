@@ -64,6 +64,14 @@ public class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			// int i = sc.nextInt();
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			int c = sc.nextInt();
+			dusp = new DijkstraUndirectedSP(graph, a);
+			if ((dusp.distTo(c)) == Double.POSITIVE_INFINITY) {
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		default:
