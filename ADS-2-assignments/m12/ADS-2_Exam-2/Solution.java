@@ -77,20 +77,22 @@ public class Solution {
 			} else {
 				String str = "";
 				double d = (dusp.distTo(b));
+				str += a;
 				for (Edge e1 : dusp.pathTo(b)) {
-                    str += e1.either() + " ";
-                }
+					str += e1.either() + " ";
+				}
 				dusp = new DijkstraUndirectedSP(graph, b);
 				d += (dusp.distTo(c));
-                for (Edge e2 : dusp.pathTo(c)) {
-                    int temp = e2.either();
-                    if (b == temp) {
-                    str += e2.other(temp) + " ";
-                } else {
-                    str += temp + " ";
-                }
-                i = temp;
-                }
+				int k = b;
+				for (Edge e2 : dusp.pathTo(c)) {
+					int temp = e2.either();
+					if (k == temp) {
+						str += e2.other(temp) + " ";
+					} else {
+						str += temp + " ";
+					}
+					i = temp;
+				}
 				System.out.println(d);
 				System.out.println(str);
 
