@@ -72,24 +72,75 @@ public class Solution {
 			if (dusp.hasPathTo(c) == false) {
 				System.out.println("No Path Found.");
 			} else {
+				String str = "";
 				double d = (dusp.distTo(b));
-				dusp = new DijkstraUndirectedSP(graph, b);
-				d += (dusp.distTo(c));
-				System.out.println(d);
-
-
-				/*String str;
-				String[] temp = (dusp.pathTo(b)).split(" ");
-				for (int i = 0; i < temp.length; i++) {
-					if (i % 2 == 0) {
+				String[] temp = (dusp.pathTo(b).toString()).split(" ");
+				for (int f = 0; f < temp.length; f++) {
+					if (f % 2 == 0) {
 						String[] temp1 = temp[0].split("-");
+						if (Integer.parseInt(temp1[0]) == a || Integer.parseInt(temp1[1]) == a) {
+							str += a + " ";
+
+						} else {
+							if (f + 2 < temp.length) {
+								String[] temp2 = temp[f].split("-");
+								String[] temp3 = temp[f + 2].split("-");
+								if (temp2[0].equals(temp3[0])) {
+									str += temp2[1] + temp2[0] + temp3[1];
+
+								} else if (temp2[0].equals(temp3[1])) {
+									str += temp2[1] + temp2[0] + temp3[0];
+
+								} else if (temp2[1].equals(temp3[0])) {
+									str += temp2[0] + temp2[1] + temp3[1];
+
+								} else if (temp2[1].equals(temp3[1])) {
+									str += temp2[0] + temp2[1] + temp3[0];
+								}
+
+							}
+
+						}
 
 					}
 
 				}
-				dusp = new DijkstraUndirectedSP(graph, a);
+				dusp = new DijkstraUndirectedSP(graph, b);
+				d += (dusp.distTo(c));
+				String[] ntemp = (dusp.pathTo(b).toString()).split(" ");
+				for (int e = 0; e < ntemp.length; e++) {
+					if (e % 2 == 0) {
+						String[] temp1 = ntemp[0].split("-");
+						if (Integer.parseInt(temp1[0]) == a || Integer.parseInt(temp1[1]) == a) {
+							str += a + " ";
+
+						} else {
+							if (e + 2 < ntemp.length) {
+								String[] temp2 = ntemp[e].split("-");
+								String[] temp3 = ntemp[e + 2].split("-");
+								if (temp2[0].equals(temp3[0])) {
+									str += temp2[1] + temp2[0] + temp3[1];
+
+								} else if (temp2[0].equals(temp3[1])) {
+									str += temp2[1] + temp2[0] + temp3[0];
+
+								} else if (temp2[1].equals(temp3[0])) {
+									str += temp2[0] + temp2[1] + temp3[1];
+
+								} else if (temp2[1].equals(temp3[1])) {
+									str += temp2[0] + temp2[1] + temp3[0];
+								}
+
+							}
+
+						}
+
+					}
+
+				}
+				System.out.println(d);
 				System.out.println(dusp.pathTo(c));
-				*/
+
 			}
 			break;
 

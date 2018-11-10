@@ -76,6 +76,10 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-692.0
+Exception in thread "main" java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:114)
 ----------------------------------------
 
