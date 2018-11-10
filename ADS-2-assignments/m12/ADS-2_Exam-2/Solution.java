@@ -50,6 +50,7 @@ public class Solution {
 			// Other wise print "No Path Found."
 			int i = sc.nextInt();
 			int j = sc.nextInt();
+			sc.nextLine();
 			dusp = new DijkstraUndirectedSP(graph, i);
 			if ((dusp.distTo(j)) == Double.POSITIVE_INFINITY) {
 				System.out.println("No Path Found.");
