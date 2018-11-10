@@ -82,10 +82,9 @@ public class Solution {
                 }
 				dusp = new DijkstraUndirectedSP(graph, b);
 				d += (dusp.distTo(c));
-                int k = a;
                 for (Edge e2 : dusp.pathTo(c)) {
                     int temp = e2.either();
-                    if (k == temp) {
+                    if (b == temp) {
                     str += e2.other(temp) + " ";
                 } else {
                     str += temp + " ";
