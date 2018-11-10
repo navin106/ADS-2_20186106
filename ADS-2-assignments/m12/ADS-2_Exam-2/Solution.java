@@ -111,8 +111,8 @@ public class Solution {
 				for (int e = 0; e < ntemp.length; e++) {
 					if (e % 2 == 0) {
 						String[] temp1 = ntemp[0].split("-");
-						if (Integer.parseInt(temp1[0]) == a || Integer.parseInt(temp1[1]) == a) {
-							str += a + " ";
+						if (Integer.parseInt(temp1[0]) == b || Integer.parseInt(temp1[1]) == b) {
+							str += b + " ";
 
 						} else {
 							if (e + 2 < ntemp.length) {
