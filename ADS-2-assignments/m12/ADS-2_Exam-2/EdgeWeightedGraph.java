@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class EdgeWeightedGraph {
     private static final String NEWLINE = System.getProperty("line.separator");
 
@@ -8,38 +9,77 @@ public class EdgeWeightedGraph {
     /**
      * Initializes an empty edge-weighted graph with {@code V} vertices and 0 edges.
      *
-     * @param  V the number of vertices
+     * @param  v the number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
      */
-    public EdgeWeightedGraph(int V) {
-        if (V < 0) throw new IllegalArgumentException("Number of vertices must be nonnegative");
-        this.V = V;
+    public EdgeWeightedGraph(int v) {
+        if (v < 0) throw new IllegalArgumentException("Number of vertices must be nonnegative");
+        this.V = v;
         this.E = 0;
         adj = (Bag<Edge>[]) new Bag[V];
-        for (int v = 0; v < V; v++) {
-            adj[v] = new Bag<Edge>();
+        for (int i = 0; i < v; i++) {
+            adj[i] = new Bag<Edge>();
         }
     }
 
     /**
      * Initializes a random edge-weighted graph with {@code V} vertices and <em>E</em> edges.
      *
-     * @param  V the number of vertices
+     * @param  v the number of vertices
      * @param  E the number of edges
      * @throws IllegalArgumentException if {@code V < 0}
      * @throws IllegalArgumentException if {@code E < 0}
      */
-    public EdgeWeightedGraph(int V, int E) {
-        this(V);
+    public EdgeWeightedGraph(int v, int E) {
+        this(v);
         if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
         for (int i = 0; i < E; i++) {
-            int v = StdRandom.uniform(V);
-            int w = StdRandom.uniform(V);
+            int from = StdRandom.uniform(V);
+            int to = StdRandom.uniform(V);
             double weight = Math.round(100 * StdRandom.uniform()) / 100.0;
+            Edge e = new Edge(from, to, weight);
+            addEdge(e);
+        }
+    }
+    // public EdgeWeightedGraph(int v, int E, Scanner sc) {
+    //     this(v);
+    //     if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
+    //     for (int i = 0; i < E; i++) {
+    //         String[] tokens = sc.nextLine().split(" ");
+    //         int from = Integer.parseInt(tokens[0]);
+    //         int to = Integer.parseInt(tokens[1]);
+    //         double weight = Double.parseDouble(tokens[2]);
+    //         Edge e = new Edge(from, to, weight);
+    //         addEdge(e);
+    //     }
+    // }    
+
+    /**  
+     * Initializes an edge-weighted graph from an input stream.
+     * The format is the number of vertices <em>V</em>,
+     * followed by the number of edges <em>E</em>,
+     * followed by <em>E</em> pairs of vertices and edge weights,
+     * with each entry separated by whitespace.
+     *
+     * @param  in the input stream
+     * @throws IllegalArgumentException if the endpoints of any edge are not in prescribed range
+     * @throws IllegalArgumentException if the number of vertices or edges is negative
+     */
+    public EdgeWeightedGraph(In in) {
+        this(in.readInt());
+        int E = in.readInt();
+        if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
+        for (int i = 0; i < E; i++) {
+            int v = in.readInt();
+            int w = in.readInt();
+            validateVertex(v);
+            validateVertex(w);
+            double weight = in.readDouble();
             Edge e = new Edge(v, w, weight);
             addEdge(e);
         }
     }
+
     /**
      * Initializes a new edge-weighted graph that is a deep copy of {@code G}.
      *
@@ -159,7 +199,7 @@ public class EdgeWeightedGraph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " vertices " + E + " edges" + NEWLINE);
+        s.append(V + " vertices " + E + " edges"+ NEWLINE);
         for (int v = 0; v < V; v++) {
             s.append(v + ": ");
             for (Edge e : adj[v]) {
