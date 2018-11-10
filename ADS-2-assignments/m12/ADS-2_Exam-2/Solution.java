@@ -51,7 +51,11 @@ public class Solution {
 			int i = sc.nextInt();
 			int j = sc.nextInt();
 			dusp = new DijkstraUndirectedSP(graph, i);
-			System.out.println(dusp.distTo(j));
+			if ((dusp.distTo(j)) == Double.POSITIVE_INFINITY) {
+				System.out.println("No Path Found.");
+			} else {
+				System.out.println(dusp.distTo(j));
+			}
 			break;
 
 		case "ViaPaths":
