@@ -72,10 +72,22 @@ public class Solution {
 			if (dusp.hasPathTo(c) == false) {
 				System.out.println("No Path Found.");
 			} else {
-				System.out.println(dusp.pathTo(b));
+				double d = (dusp.distTo(b))+(dusp.distTo(c));
+				System.out.println(d);
+
+
+				/*String str;
+				String[] temp = (dusp.pathTo(b)).split(" ");
+				for (int i = 0; i < temp.length; i++) {
+					if (i % 2 == 0) {
+						String[] temp1 = temp[0].split("-");
+						
+					}
+
+				}
 				dusp = new DijkstraUndirectedSP(graph, a);
 				System.out.println(dusp.pathTo(c));
-			}
+*/			}
 			break;
 
 		default:
