@@ -72,6 +72,8 @@ public class Solution {
 			if (dusp.hasPathTo(c) == false) {
 				System.out.println("No Path Found.");
 			} else {
+				System.out.println(dusp.pathTo(b));
+				dusp = new DijkstraUndirectedSP(graph, a);
 				System.out.println(dusp.pathTo(c));
 			}
 			break;
