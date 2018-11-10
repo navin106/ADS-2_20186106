@@ -93,7 +93,7 @@ public class Solution {
                 i = temp;
                 }
 				System.out.println(d);
-				System.out.println(dusp.pathTo(c));
+				System.out.println(str);
 
 			}
 			break;
