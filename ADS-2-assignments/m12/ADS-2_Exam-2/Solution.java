@@ -91,7 +91,7 @@ public class Solution {
 					} else {
 						str += temp + " ";
 					}
-					i = temp;
+					k = temp;
 				}
 				System.out.println(d);
 				System.out.println(str);
