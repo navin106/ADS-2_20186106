@@ -82,7 +82,7 @@ public class Solution {
                 }
 				dusp = new DijkstraUndirectedSP(graph, b);
 				d += (dusp.distTo(c));
-                int k = b;
+                int k = a;
                 for (Edge e2 : dusp.pathTo(c)) {
                     int temp = e2.either();
                     if (k == temp) {
