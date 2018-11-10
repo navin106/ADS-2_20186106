@@ -71,6 +71,8 @@ public class Solution {
 			dusp = new DijkstraUndirectedSP(graph, a);
 			if ((dusp.distTo(c)) == Double.POSITIVE_INFINITY) {
 				System.out.println("No Path Found.");
+			} else {
+				System.out.println(dusp.pathTo(c));
 			}
 			break;
 

@@ -76,6 +76,14 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: Stack$Node
+	at Stack.push(Stack.java:91)
+	at DijkstraUndirectedSP.pathTo(DijkstraUndirectedSP.java:96)
+	at Solution.main(Solution.java:75)
+Caused by: java.lang.ClassNotFoundException: Stack$Node
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 3 more
 ----------------------------------------
 
