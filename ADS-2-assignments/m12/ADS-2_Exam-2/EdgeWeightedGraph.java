@@ -41,17 +41,18 @@ public class EdgeWeightedGraph {
             addEdge(e);
         }
     }*/
-    // public EdgeWeightedGraph(int v, int E, int d) {
-        // this(v);
-        // if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
-        // for (int i = 0; i < E; i++) {
-            // String[] tokens = sc.nextLine().split(" ");
-            // int from = Integer.parseInt(tokens[0]);
-            // int to = Integer.parseInt(tokens[1]);
-            // double weight = Double.parseDouble(tokens[2]);
-            
-        // }
-    // }    
+    public EdgeWeightedGraph(int v, int E, Scanner sc) {
+        this(v);
+        if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
+        for (int i = 0; i < E; i++) {
+            String[] tokens = sc.nextLine().split(" ");
+            int from = Integer.parseInt(tokens[0]);
+            int to = Integer.parseInt(tokens[1]);
+            double weight = Double.parseDouble(tokens[2]);
+            Edge e = new Edge(from, to, weight);
+            addEdge(e);
+        }
+    }    
 
     /**  
      * Initializes an edge-weighted graph from an input stream.
