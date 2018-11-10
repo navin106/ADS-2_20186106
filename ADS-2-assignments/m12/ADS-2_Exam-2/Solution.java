@@ -72,7 +72,9 @@ public class Solution {
 			if (dusp.hasPathTo(c) == false) {
 				System.out.println("No Path Found.");
 			} else {
-				double d = (dusp.distTo(b))+(dusp.distTo(c));
+				double d = (dusp.distTo(b));
+				dusp = new DijkstraUndirectedSP(graph, b);
+				d += (dusp.distTo(c));
 				System.out.println(d);
 
 
@@ -81,13 +83,14 @@ public class Solution {
 				for (int i = 0; i < temp.length; i++) {
 					if (i % 2 == 0) {
 						String[] temp1 = temp[0].split("-");
-						
+
 					}
 
 				}
 				dusp = new DijkstraUndirectedSP(graph, a);
 				System.out.println(dusp.pathTo(c));
-*/			}
+				*/
+			}
 			break;
 
 		default:
