@@ -50,7 +50,7 @@ public class Solution {
 			// Other wise print "No Path Found."
 			int i = sc.nextInt();
 			int j = sc.nextInt();
-			
+
 			dusp = new DijkstraUndirectedSP(graph, i);
 			if ((dusp.distTo(j)) == Double.POSITIVE_INFINITY) {
 				System.out.println("No Path Found.");
@@ -77,70 +77,21 @@ public class Solution {
 			} else {
 				String str = "";
 				double d = (dusp.distTo(b));
-				String[] temp = (dusp.pathTo(b).toString()).split(" ");
-				for (int f = 0; f < temp.length; f++) {
-					if (f % 2 == 0) {
-						String[] temp1 = temp[0].split("-");
-						if (Integer.parseInt(temp1[0]) == a || Integer.parseInt(temp1[1]) == a) {
-							str += a + " ";
-
-						} else {
-							if (f + 2 < temp.length) {
-								String[] temp2 = temp[f].split("-");
-								String[] temp3 = temp[f + 2].split("-");
-								if (temp2[0].equals(temp3[0])) {
-									str += temp2[1] + temp2[0] + temp3[1];
-
-								} else if (temp2[0].equals(temp3[1])) {
-									str += temp2[1] + temp2[0] + temp3[0];
-
-								} else if (temp2[1].equals(temp3[0])) {
-									str += temp2[0] + temp2[1] + temp3[1];
-
-								} else if (temp2[1].equals(temp3[1])) {
-									str += temp2[0] + temp2[1] + temp3[0];
-								}
-
-							}
-
-						}
-
-					}
-
-				}
+				for (Edge e1 : dusp.pathTo(b)) {
+                    str += e1.either() + " ";
+                }
 				dusp = new DijkstraUndirectedSP(graph, b);
 				d += (dusp.distTo(c));
-				String[] ntemp = (dusp.pathTo(b).toString()).split(" ");
-				for (int e = 0; e < ntemp.length; e++) {
-					if (e % 2 == 0) {
-						String[] temp1 = ntemp[0].split("-");
-						if (Integer.parseInt(temp1[0]) == b || Integer.parseInt(temp1[1]) == b) {
-							str += b + " ";
-
-						} else {
-							if (e + 2 < ntemp.length) {
-								String[] temp2 = ntemp[e].split("-");
-								String[] temp3 = ntemp[e + 2].split("-");
-								if (temp2[0].equals(temp3[0])) {
-									str += temp2[1] + temp2[0] + temp3[1];
-
-								} else if (temp2[0].equals(temp3[1])) {
-									str += temp2[1] + temp2[0] + temp3[0];
-
-								} else if (temp2[1].equals(temp3[0])) {
-									str += temp2[0] + temp2[1] + temp3[1];
-
-								} else if (temp2[1].equals(temp3[1])) {
-									str += temp2[0] + temp2[1] + temp3[0];
-								}
-
-							}
-
-						}
-
-					}
-
-				}
+                int k = b;
+                for (Edge e2 : dusp.pathTo(c)) {
+                    int temp = e2.either();
+                    if (k == temp) {
+                    str += e2.other(temp) + " ";
+                } else {
+                    str += temp + " ";
+                }
+                i = temp;
+                }
 				System.out.println(d);
 				System.out.println(dusp.pathTo(c));
 
