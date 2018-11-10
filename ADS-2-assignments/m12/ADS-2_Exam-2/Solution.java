@@ -77,7 +77,7 @@ public final class Solution {
             } else {
                 String str = "";
                 double d = (dusp.distTo(b));
-                str += a +" ";
+                str += a + " ";
                 for (Edge e1 : dusp.pathTo(b)) {
                     str += e1.either() + " ";
                 }
