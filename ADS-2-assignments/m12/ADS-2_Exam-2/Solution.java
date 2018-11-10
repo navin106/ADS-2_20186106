@@ -68,9 +68,7 @@ public class Solution {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			int c = sc.nextInt();
-			System.out.println(a);
-			System.out.println(b);
-			System.out.println(c);
+			sc.nextLine();
 			dusp = new DijkstraUndirectedSP(graph, a);
 			if (dusp.hasPathTo(c) == false) {
 				System.out.println("No Path Found.");

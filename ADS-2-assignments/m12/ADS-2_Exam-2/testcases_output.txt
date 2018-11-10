@@ -62,14 +62,11 @@ Your Output:
 370.0
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 No Path Found.
 
 Your Output: 
-0
-2
-5
 No Path Found.
 ----------------------------------------
 
@@ -79,13 +76,10 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-5
-2
-1
 Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:662)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:117)
+	at Solution.main(Solution.java:115)
 ----------------------------------------
 
