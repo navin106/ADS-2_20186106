@@ -28,10 +28,10 @@ public class Solution {
 		EdgeWeightedGraph graph = new EdgeWeightedGraph(cities);
 		for (int i = 0; i < paths; i++) {
 			String[] distPath = sc.nextLine().split(" ");
-			Edge e = new Edge(Integer.parseInt(distPath[0]),
+			// Edge e = ;
+			graph.addEdge(new Edge(Integer.parseInt(distPath[0]),
 			                  Integer.parseInt(distPath[0]),
-			                  Double.parseDouble(distPath[0]));
-			graph.addEdge(e);
+			                  Double.parseDouble(distPath[0])));
 		}
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
