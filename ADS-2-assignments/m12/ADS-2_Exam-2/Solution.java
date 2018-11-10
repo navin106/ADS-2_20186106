@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// import java.util.HashMap;
 /**
  * Class for solution.
  */
@@ -33,6 +34,8 @@ public class Solution {
 			                  Double.parseDouble(distPath[2]));
 			graph.addEdge(e);
 		}
+
+		DijkstraUndirectedSP dusp;
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
@@ -45,6 +48,10 @@ public class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			int i = sc.nextInt();
+			int j = sc.nextInt();
+			dusp = new DijkstraUndirectedSP(graph, i);
+			System.out.println(dusp.distTo(j));
 			break;
 
 		case "ViaPaths":

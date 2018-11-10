@@ -51,7 +51,14 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: IndexMinPQ
+	at DijkstraUndirectedSP.<init>(DijkstraUndirectedSP.java:31)
+	at Solution.main(Solution.java:53)
+Caused by: java.lang.ClassNotFoundException: IndexMinPQ
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -59,7 +66,14 @@ Expected Output:
 370.0
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: IndexMinPQ
+	at DijkstraUndirectedSP.<init>(DijkstraUndirectedSP.java:31)
+	at Solution.main(Solution.java:53)
+Caused by: java.lang.ClassNotFoundException: IndexMinPQ
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
