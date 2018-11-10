@@ -450,8 +450,8 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:47: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:63: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:64: Line is longer than 80 characters (found 110). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:75:47: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:80:43: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:73:47: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m12/ADS-2_Exam-2/Solution.java:78:43: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 10 errors.
 Starting audit...

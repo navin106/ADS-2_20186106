@@ -63,15 +63,13 @@ public class Solution {
 			// Handle the case of ViaPaths, where three integers are given.
 			// First is the source and second is the via is the one where path should pass throuh.
 			// third is the destination.
-			// If the path exists print the distance between them.
-			// Other wise print "No Path Found."
-			// int i = sc.nextInt();
-			// sc.nextLine();
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			int c = sc.nextInt();
 			// sc.nextLine();sc.nextLine();
 			dusp = new DijkstraUndirectedSP(graph, a);
+			// Other wise print "No Path Found."
+			// If the path exists print the distance between them.
 			if (dusp.hasPathTo(c) == false) {
 				System.out.println("No Path Found.");
 			} else {
@@ -95,7 +93,6 @@ public class Solution {
 				}
 				System.out.println(d);
 				System.out.println(str);
-
 			}
 			break;
 
