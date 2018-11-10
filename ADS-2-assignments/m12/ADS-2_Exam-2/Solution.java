@@ -30,7 +30,7 @@ public class Solution {
 			String[] distPath = sc.nextLine().split(" ");
 			Edge e = new Edge(Integer.parseInt(distPath[0]),
 			                  Integer.parseInt(distPath[0]),
-			                  Integer.parseInt(distPath[0]));
+			                  Double.parseDouble(distPath[0]));
 			graph.addEdge(e);
 		}
 		String caseToGo = sc.nextLine();
