@@ -66,7 +66,7 @@ public class Solution {
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
 			// int i = sc.nextInt();
-			sc.nextLine();
+			// sc.nextLine();
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			int c = sc.nextInt();
