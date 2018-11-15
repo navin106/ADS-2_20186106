@@ -50,7 +50,12 @@ public class Solution {
 				for (String word : solver.getAllValidWords(board)) {
 					score += solver.scoreOf(word);
 				}
-				StdOut.println("Score = " + score);
+				// StdOut.println("Score = " + score);
+				if (dictionaryName!=null) {
+			StdOut.println("Score = " + score);
+			} else {
+				System.out.println("dictionaryName");
+			}
 			} catch (Exception ex) {
 				System.out.println(ex.getMessage());
 			}
