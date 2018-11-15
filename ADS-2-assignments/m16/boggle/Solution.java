@@ -32,7 +32,11 @@ public class Solution {
 			for (String word : solver.getAllValidWords(board)) {
 				score += solver.scoreOf(word);
 			}
+			if (dictionaryName!=null) {
 			StdOut.println("Score = " + score);
+			} else {
+				System.out.println("dictionaryName");
+			}
 			break;
 
 		default:
