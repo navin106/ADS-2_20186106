@@ -51,11 +51,11 @@ public class Solution {
 					score += solver.scoreOf(word);
 				}
 				// StdOut.println("Score = " + score);
-				if (board == null) {
-					System.out.println("board is null");
-				} else {
+				// if (board == null) {
+					// System.out.println("board is null");
+				// } else {
 					StdOut.println("Score = " + score);
-				}
+				// }
 			} catch (Exception ex) {
 				System.out.println(ex.getMessage());
 			}
