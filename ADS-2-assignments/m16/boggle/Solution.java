@@ -32,10 +32,10 @@ public class Solution {
 			for (String word : solver.getAllValidWords(board)) {
 				score += solver.scoreOf(word);
 			}
-			if (dictionaryName!=null) {
-			StdOut.println("Score = " + score);
+			if (board == null) {
+				System.out.println("board is null");
 			} else {
-				System.out.println("dictionaryName");
+				StdOut.println("Score = " + score);
 			}
 			break;
 
@@ -51,11 +51,11 @@ public class Solution {
 					score += solver.scoreOf(word);
 				}
 				// StdOut.println("Score = " + score);
-				if (dictionaryName!=null) {
-			StdOut.println("Score = " + score);
-			} else {
-				System.out.println("dictionaryName");
-			}
+				if (board == null) {
+					System.out.println("board is null");
+				} else {
+					StdOut.println("Score = " + score);
+				}
 			} catch (Exception ex) {
 				System.out.println(ex.getMessage());
 			}
