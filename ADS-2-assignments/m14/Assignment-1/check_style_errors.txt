@@ -268,5 +268,6 @@ Audit done.
 Checkstyle ends with 140 errors.
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m14/Assignment-1/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m14/Assignment-1/Solution.java:27:38: '5' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 2 errors.
