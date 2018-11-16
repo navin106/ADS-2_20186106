@@ -5,7 +5,7 @@ public class LSD {
 	}
 	public static void sort(final String[] a, final int w) {
 		int n = a.length;
-		final int radix = 9;   // extend ASCII alphabet size
+		final int radix = 256;   // extend ASCII alphabet size
 		String[] aux = new String[n];
 
 		for (int d = w - 1; d >= 0; d--) {
