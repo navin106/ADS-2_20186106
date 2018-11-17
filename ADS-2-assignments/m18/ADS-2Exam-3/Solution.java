@@ -140,32 +140,25 @@ class T9 {
 			for (String iwo : words) {
 				if (tempst.get(wo) < tempst.get((String) iwo)) {
 					temp = iwo;
+					count++;
 				} else if (tempst.get(wo) == tempst.get((String) iwo)) {
 					if (wo.length() < iwo.length()) {
 						temp = iwo;
+						count++;
 
 					} else if (wo.length() > iwo.length()) {
 						temp = wo;
+						count++;
 					}
 				}
 
 			}
 
 			queue.enqueue((String) temp);
-			/*			for (Object each : dict.keysWithPrefix(wo) ) {
-							if (tempst.get(wo) == tempst.get((String) each)) {
-								queue.enqueue((String) each);
-								count++;
-								if (count == k) {
-									return queue;
+			if (count == k) {
+				return queue;
 
-								}
-							}
-							// else if (wo.length() == ((String) each).length()) {
-							// 	queue.enqueue((String) each);
-							// }
-
-						}*/
+			}
 		}
 		return queue;
 	}
