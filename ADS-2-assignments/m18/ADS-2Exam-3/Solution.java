@@ -93,8 +93,9 @@ public class Solution {
 		for (int i = 0; i < dictionary.length; i++) {
 			if (st.get(dictionary[i].toLowerCase()) == null) {
 				st.put(dictionary[i].toLowerCase(), 1);
+			} else {
+				st.put(dictionary[i].toLowerCase(), st.get(dictionary[i].toLowerCase()) + 1);
 			}
-			st.put(dictionary[i].toLowerCase(), st.get(dictionary[i].toLowerCase()) + 1);
 		}
 		return st;
 	}
