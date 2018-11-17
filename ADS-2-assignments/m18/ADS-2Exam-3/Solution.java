@@ -136,10 +136,11 @@ class T9 {
 		for (String wo : words) {
 			for (Object each : dict.keysWithPrefix(wo) ) {
 				if (tempst.get(wo) == tempst.get((String) each)) {
-					if (wo.length() == ((String) each).length()) {
-						queue.enqueue((String) each);
-					}
+					queue.enqueue((String) each);
+				} else if (wo.length() == ((String) each).length()) {
+					queue.enqueue((String) each);
 				}
+
 			}
 		}
 		return queue;
