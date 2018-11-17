@@ -481,9 +481,6 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:88:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:88:70: Parameter file should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:89: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:97:54: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:97:75: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:97:76: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:106: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:108:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:108:9: Redundant 'public' modifier. [RedundantModifier]
@@ -499,4 +496,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:131:36: Parameter t9Signature should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:131:56: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 30 errors.
+Checkstyle ends with 27 errors.

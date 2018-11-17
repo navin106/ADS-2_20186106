@@ -90,14 +90,14 @@ public class Solution {
 		// your code goes here
 		In in = new In(file);
 		String[] dictionary = in.readAllStrings();
-		for (int i = 0; i <= dictionary.length; i++) {
+		for (int i = 0; i < dictionary.length; i++) {
 			if (st.get(dictionary[i]) == null) {
 				st.put(dictionary[i], 1);
-			} else {
-				st.put(dictionary[i],st.get(dictionary[i])+1);
 			}
+			st.put(dictionary[i], st.get(dictionary[i]) + 1);
 
-			}
+
+		}
 		return st;
 	}
 
