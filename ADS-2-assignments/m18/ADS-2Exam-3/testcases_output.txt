@@ -157,7 +157,6 @@ fine
 seeking
 
 Your Output: 
-43556
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:38)
 ----------------------------------------
@@ -170,8 +169,33 @@ right
 words
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:57)
+is
+isaiahd
+isare
+iscoming
+ish
+ishtamayoohappy
+island
+islands
+islove
+isnt
+issue
+issues
+isvimportant
+within
+words
+wordsevry
+rights
+right
+rightio
+rightly
+rights
+hello
+hellodrivbyquit
+helloed
+hellogorgeous
+hellohow
+helloooo
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -223,8 +247,9 @@ paper
 keep
 
 Your Output: 
-873283
 Exception in thread "main" java.lang.NullPointerException
+	at T9.getSuggestions(Solution.java:136)
+	at T9.t9(Solution.java:147)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 

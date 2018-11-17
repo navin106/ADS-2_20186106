@@ -110,8 +110,8 @@ class T9 {
 		// your code goes here
 		dict = new TST();
 		this.tempst = st;
-		for(String word: st.keys()) {
-			dict.put(word,st.get(word));
+		for (String word : st.keys()) {
+			dict.put(word, st.get(word));
 		}
 
 	}
@@ -124,14 +124,21 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
-		System.out.println(t9Signature);
+		// System.out.println(t9Signature);
+		// String[]
 		return null;
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-		return null;
+		Queue<String> queue = new Queue<String>();
+		for (String wo : words) {
+			for (Object each : dict.keysWithPrefix(wo) ) {
+				queue.enqueue((String) each);
+			}
+		}
+		return queue;
 	}
 
 	// final output
