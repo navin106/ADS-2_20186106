@@ -169,18 +169,14 @@ right
 words
 
 Your Output: 
-is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
-within 
-words wordsevry 
-rights 
-right rightio rightly rights 
 hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
-is
-within
-words
-rights
-right
-hello
+right rightio rightly rights 
+rights 
+words wordsevry 
+within 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:57)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -233,8 +229,8 @@ keep
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at T9.getSuggestions(Solution.java:138)
-	at T9.t9(Solution.java:172)
+	at T9.getSuggestions(Solution.java:139)
+	at T9.t9(Solution.java:178)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 

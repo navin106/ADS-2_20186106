@@ -132,12 +132,14 @@ class T9 {
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
+		Bag<String> tbag = new Bag<String>();
 		Queue<String> queue = new Queue<String>();
 		int count = 0;
 		String temp = "";
 		for (String wo : words) {
-			temp = wo;
-			System.out.println(dict.keysWithPrefix(wo));
+			tbag.add(wo);
+			// temp = wo;
+			// System.out.println(dict.keysWithPrefix(wo));
 			// for (String iwo : words) {
 				// if (dict.keysWithPrefix(prefix)) {
 
@@ -155,15 +157,19 @@ class T9 {
 				// 		count++;
 				// 	}
 				// }
-				if (count == k) {
-					return queue;
+				// if (count == k) {
+				// 	return queue;
 
 				// }
-			}
+			// }
 
-			queue.enqueue((String) temp);
+			// queue.enqueue((String) temp);
 		}
-		return queue;
+		for(String wo: tbag) {
+			System.out.println(dict.keysWithPrefix(wo));
+
+		}
+		return null;
 	}
 
 	// final output
