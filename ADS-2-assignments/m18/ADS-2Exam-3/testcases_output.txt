@@ -173,8 +173,6 @@ is
 within
 words
 rights
-right
-hello
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########

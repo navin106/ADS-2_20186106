@@ -140,7 +140,7 @@ class T9 {
 					queue.enqueue((String) each);
 					count++;
 					if (count == k) {
-						break;
+						return queue;
 						
 					}
 				} 
