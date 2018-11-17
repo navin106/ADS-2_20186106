@@ -137,11 +137,11 @@ class T9 {
 		String temp = "";
 		for (String wo : words) {
 			temp = wo;
-			for (String iwo : words) {
+			System.out.println(dict.keysWithPrefix(wo));
+			// for (String iwo : words) {
 				// if (dict.keysWithPrefix(prefix)) {
-					
+
 				// }
-				System.out.println(dict.keysWithPrefix(wo));
 				// if (tempst.get(wo) < tempst.get((String) iwo)) {
 				// 	temp = iwo;
 				// 	count++;
@@ -158,7 +158,7 @@ class T9 {
 				if (count == k) {
 					return queue;
 
-				}
+				// }
 			}
 
 			queue.enqueue((String) temp);
