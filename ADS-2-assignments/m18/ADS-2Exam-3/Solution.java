@@ -135,7 +135,11 @@ class T9 {
 		Queue<String> queue = new Queue<String>();
 		for (String wo : words) {
 			for (Object each : dict.keysWithPrefix(wo) ) {
-				queue.enqueue((String) each);
+				if (tempst.get(wo) == tempst.get((String) each)) {
+					if (wo.length() == ((String) each).length()) {
+						queue.enqueue((String) each);
+					}
+				}
 			}
 		}
 		return queue;
