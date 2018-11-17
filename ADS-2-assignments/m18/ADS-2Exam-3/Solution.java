@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.HashSet;
 
 
 public class Solution {
@@ -136,8 +137,13 @@ class T9 {
 		Queue<String> queue = new Queue<String>();
 		int count = 0;
 		String temp = "";
-		for (String wo : words) {
-			tbag.add(wo);
+		MaxPQ<Integer> freq = new MaxPQ<Integer>();
+		HashSet<String> appr = new HashSet<String>();
+        for (String each : words) {
+            freq.insert((Integer) dict.get(each));
+        }
+        // for (String wo : words) {
+			// tbag.add(wo);
 			// temp = wo;
 			// for (String iwo : words) {
 			// if (dict.keysWithPrefix(prefix)) {
@@ -163,17 +169,28 @@ class T9 {
 			// }
 
 			// queue.enqueue((String) temp);
-		}
-		for (String wo : tbag) {
-			// for (String iwo : tbag) {
+		// }
+        
+        for (int i = 0; i < k; i++) {
+            int value = freq.delMax();
+            for (String word : words) {
+                if (value == (Integer) dict.get(word)) {
+                    appr.add(word);
+                }
+            }
+        }
+        return appr;
+		
+		// for (String wo : tbag) {
+		// 	// for (String iwo : tbag) {
 
-			// }
-			for (Object s:dict.keysWithPrefix(wo)){
-				System.out.println(tempst.get((String)s));
-			}
+		// 	// }
+		// 	for (Object s:dict.keysWithPrefix(wo)){
+		// 		System.out.println(tempst.get((String)s));
+		// 	}
 
-			}
-		return null;
+		// 	}
+		// return null;
 	}
 
 	// final output
