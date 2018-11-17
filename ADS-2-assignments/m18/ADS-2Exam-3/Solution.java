@@ -124,6 +124,7 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
+		System.out.println(t9Signature);
 		return null;
 	}
 
