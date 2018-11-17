@@ -169,7 +169,7 @@ right
 words
 
 Your Output: 
-
+is
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########

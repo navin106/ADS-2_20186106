@@ -140,7 +140,7 @@ class T9 {
 			for (String iwo : words) {
 				if (tempst.get(wo) < tempst.get((String) iwo)) {
 					temp = iwo;
-					// count++;
+					count++;
 				} else if (tempst.get(wo) == tempst.get((String) iwo)) {
 					if (wo.length() < iwo.length()) {
 						temp = iwo;
@@ -149,8 +149,8 @@ class T9 {
 					} else if (wo.length() > iwo.length()) {
 						temp = wo;
 					}
-				}
 				count++;
+				}
 				if (count == k) {
 					return queue;
 
