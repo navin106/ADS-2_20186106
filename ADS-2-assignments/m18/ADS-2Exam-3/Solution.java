@@ -139,36 +139,40 @@ class T9 {
 		for (String wo : words) {
 			tbag.add(wo);
 			// temp = wo;
-			// System.out.println(dict.keysWithPrefix(wo));
+			for (Object s:dict.keysWithPrefix(wo)){
+				System.out.println(tempst.get((String)s));
+			}
 			// for (String iwo : words) {
-				// if (dict.keysWithPrefix(prefix)) {
+			// if (dict.keysWithPrefix(prefix)) {
 
-				// }
-				// if (tempst.get(wo) < tempst.get((String) iwo)) {
-				// 	temp = iwo;
-				// 	count++;
-				// } else if (tempst.get(wo) == tempst.get((String) iwo)) {
-				// 	if (wo.length() < iwo.length()) {
-				// 		temp = iwo;
-				// 		// count++;
+			// }
+			// if (tempst.get(wo) < tempst.get((String) iwo)) {
+			// 	temp = iwo;
+			// 	count++;
+			// } else if (tempst.get(wo) == tempst.get((String) iwo)) {
+			// 	if (wo.length() < iwo.length()) {
+			// 		temp = iwo;
+			// 		// count++;
 
-				// 	} else if (wo.length() > iwo.length()) {
-				// 		temp = wo;
-				// 		count++;
-				// 	}
-				// }
-				// if (count == k) {
-				// 	return queue;
+			// 	} else if (wo.length() > iwo.length()) {
+			// 		temp = wo;
+			// 		count++;
+			// 	}
+			// }
+			// if (count == k) {
+			// 	return queue;
 
-				// }
+			// }
 			// }
 
 			// queue.enqueue((String) temp);
 		}
-		for(String wo: tbag) {
-			System.out.println(dict.keysWithPrefix(wo));
+		for (String wo : tbag) {
+			for (String iwo : tbag) {
 
-		}
+			}
+
+			}
 		return null;
 	}
 

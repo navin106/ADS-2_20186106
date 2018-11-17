@@ -496,11 +496,12 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:133:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:133:48: Parameter words should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:133:72: Parameter k should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:147: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:150: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:168:20: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:177:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:177:36: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:177:56: Parameter k should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:142:63: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:143:71: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:152: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:171:49: Must have at least one statement. [EmptyBlock]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:181:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:181:36: Parameter t9Signature should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:181:56: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 34 errors.
