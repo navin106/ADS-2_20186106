@@ -137,9 +137,10 @@ class T9 {
 			for (Object each : dict.keysWithPrefix(wo) ) {
 				if (tempst.get(wo) == tempst.get((String) each)) {
 					queue.enqueue((String) each);
-				} else if (wo.length() == ((String) each).length()) {
-					queue.enqueue((String) each);
-				}
+				} 
+				// else if (wo.length() == ((String) each).length()) {
+				// 	queue.enqueue((String) each);
+				// }
 
 			}
 		}
