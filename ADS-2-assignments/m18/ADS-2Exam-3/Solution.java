@@ -88,6 +88,16 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
+		In in = new In("/Files/" + file);
+		String[] dictionary = in.readAllStrings();
+		for (int i = 0; i < dictionary.length; i++) {
+			if (st.get(dictionary[i]) == null) {
+				st.put(dictionary[i], 1);
+			} else {
+				st.put(dictionary[i],st.get(dictionary[i])+1);
+			}
+
+			}
 		return st;
 	}
 
