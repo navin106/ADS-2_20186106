@@ -138,7 +138,6 @@ class T9 {
 		int count = 0;
 		String temp = "";
 		MaxPQ<Integer> freq = new MaxPQ<Integer>();
-		HashSet<String> appr = new HashSet<String>();
         for (String each : words) {
             freq.insert((Integer) dict.get(each));
         }
@@ -175,11 +174,11 @@ class T9 {
             int value = freq.delMax();
             for (String word : words) {
                 if (value == (Integer) dict.get(word)) {
-                    appr.add(word);
+                    tbag.add(word);
                 }
             }
         }
-        return appr;
+        return tbag;
 		
 		// for (String wo : tbag) {
 		// 	// for (String iwo : tbag) {

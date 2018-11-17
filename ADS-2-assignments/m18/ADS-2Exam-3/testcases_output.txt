@@ -170,9 +170,9 @@ words
 
 Your Output: 
 words
-is
-right
 hello
+right
+is
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -225,8 +225,8 @@ keep
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at T9.getSuggestions(Solution.java:142)
-	at T9.t9(Solution.java:199)
+	at T9.getSuggestions(Solution.java:141)
+	at T9.t9(Solution.java:198)
 	at Solution.main(Solution.java:71)
 ----------------------------------------
 

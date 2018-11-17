@@ -469,6 +469,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 71 errors.
 Starting audit...
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:2:8: Unused import - java.util.HashSet. [UnusedImports]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:5: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
@@ -496,11 +497,11 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:134:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:134:48: Parameter words should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:134:72: Parameter k should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:155: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:173: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:183: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:198:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:198:36: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:198:56: Parameter k should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:154: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:172: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:182: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:197:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:197:36: Parameter t9Signature should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:197:56: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 34 errors.
