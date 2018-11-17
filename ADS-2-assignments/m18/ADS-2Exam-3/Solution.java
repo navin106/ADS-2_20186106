@@ -139,9 +139,6 @@ class T9 {
 		for (String wo : words) {
 			tbag.add(wo);
 			// temp = wo;
-			for (Object s:dict.keysWithPrefix(wo)){
-				System.out.println(tempst.get((String)s));
-			}
 			// for (String iwo : words) {
 			// if (dict.keysWithPrefix(prefix)) {
 
@@ -168,8 +165,11 @@ class T9 {
 			// queue.enqueue((String) temp);
 		}
 		for (String wo : tbag) {
-			for (String iwo : tbag) {
+			// for (String iwo : tbag) {
 
+			// }
+			for (Object s:dict.keysWithPrefix(wo)){
+				System.out.println(tempst.get((String)s));
 			}
 
 			}

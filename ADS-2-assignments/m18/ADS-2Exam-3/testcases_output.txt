@@ -169,6 +169,20 @@ right
 words
 
 Your Output: 
+42
+1
+1
+1
+1
+2
+87
+1
+2
+2
+2
+22
+1
+6
 704
 1
 1
@@ -182,20 +196,6 @@ Your Output:
 3
 3
 1
-6
-22
-1
-2
-87
-1
-2
-2
-42
-1
-1
-1
-1
-2
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:57)
 ----------------------------------------
