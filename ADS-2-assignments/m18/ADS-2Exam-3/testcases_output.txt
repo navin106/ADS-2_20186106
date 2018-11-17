@@ -169,7 +169,7 @@ right
 words
 
 Your Output: 
-is
+
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -223,7 +223,7 @@ keep
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at T9.getSuggestions(Solution.java:138)
-	at T9.t9(Solution.java:169)
+	at T9.t9(Solution.java:168)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 
