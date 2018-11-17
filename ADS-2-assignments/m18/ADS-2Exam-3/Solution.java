@@ -152,13 +152,13 @@ class T9 {
 					}
 				}
 
+				if (count == k) {
+					return queue;
+
+				}
 			}
 
 			queue.enqueue((String) temp);
-			if (count == k) {
-				return queue;
-
-			}
 		}
 		return queue;
 	}

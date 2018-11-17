@@ -170,7 +170,6 @@ words
 
 Your Output: 
 is
-hello
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
