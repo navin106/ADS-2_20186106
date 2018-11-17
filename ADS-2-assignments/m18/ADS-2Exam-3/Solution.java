@@ -133,10 +133,16 @@ class T9 {
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
 		Queue<String> queue = new Queue<String>();
+		int count = 0;
 		for (String wo : words) {
 			for (Object each : dict.keysWithPrefix(wo) ) {
 				if (tempst.get(wo) == tempst.get((String) each)) {
 					queue.enqueue((String) each);
+					count++;
+					if (count == k) {
+						break;
+						
+					}
 				} 
 				// else if (wo.length() == ((String) each).length()) {
 				// 	queue.enqueue((String) each);
