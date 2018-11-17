@@ -10,16 +10,14 @@ Expected Output:
 149
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: Could not open /Files//Files/t9.csv
-	at In.<init>(In.java:190)
-	at Solution.loadDictionary(Solution.java:91)
-	at Solution.main(Solution.java:14)
-Caused by: java.net.MalformedURLException: no protocol: /Files//Files/t9.csv
-	at java.base/java.net.URL.<init>(URL.java:627)
-	at java.base/java.net.URL.<init>(URL.java:523)
-	at java.base/java.net.URL.<init>(URL.java:470)
-	at In.<init>(In.java:177)
-	... 2 more
+50
+27
+134
+3
+94
+49
+45
+133
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -59,16 +57,8 @@ messagesome
 going
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: Could not open /Files//Files/t9.csv
-	at In.<init>(In.java:190)
-	at Solution.loadDictionary(Solution.java:91)
-	at Solution.main(Solution.java:23)
-Caused by: java.net.MalformedURLException: no protocol: /Files//Files/t9.csv
-	at java.base/java.net.URL.<init>(URL.java:627)
-	at java.base/java.net.URL.<init>(URL.java:523)
-	at java.base/java.net.URL.<init>(URL.java:470)
-	at In.<init>(In.java:177)
-	... 2 more
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -136,16 +126,8 @@ fine
 seeking
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: Could not open /Files//Files/t9.csv
-	at In.<init>(In.java:190)
-	at Solution.loadDictionary(Solution.java:91)
-	at Solution.main(Solution.java:34)
-Caused by: java.net.MalformedURLException: no protocol: /Files//Files/t9.csv
-	at java.base/java.net.URL.<init>(URL.java:627)
-	at java.base/java.net.URL.<init>(URL.java:523)
-	at java.base/java.net.URL.<init>(URL.java:470)
-	at In.<init>(In.java:177)
-	... 2 more
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -156,16 +138,8 @@ right
 words
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: Could not open /Files//Files/t9.csv
-	at In.<init>(In.java:190)
-	at Solution.loadDictionary(Solution.java:91)
-	at Solution.main(Solution.java:50)
-Caused by: java.net.MalformedURLException: no protocol: /Files//Files/t9.csv
-	at java.base/java.net.URL.<init>(URL.java:627)
-	at java.base/java.net.URL.<init>(URL.java:523)
-	at java.base/java.net.URL.<init>(URL.java:470)
-	at In.<init>(In.java:177)
-	... 2 more
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:57)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -217,15 +191,7 @@ paper
 keep
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: Could not open /Files//Files/t9.csv
-	at In.<init>(In.java:190)
-	at Solution.loadDictionary(Solution.java:91)
-	at Solution.main(Solution.java:65)
-Caused by: java.net.MalformedURLException: no protocol: /Files//Files/t9.csv
-	at java.base/java.net.URL.<init>(URL.java:627)
-	at java.base/java.net.URL.<init>(URL.java:523)
-	at java.base/java.net.URL.<init>(URL.java:470)
-	at In.<init>(In.java:177)
-	... 2 more
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:70)
 ----------------------------------------
 
