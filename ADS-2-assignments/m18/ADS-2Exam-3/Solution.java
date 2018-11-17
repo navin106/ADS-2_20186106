@@ -134,21 +134,38 @@ class T9 {
 		// your code goes here
 		Queue<String> queue = new Queue<String>();
 		int count = 0;
+		String temp = "";
 		for (String wo : words) {
-			for (Object each : dict.keysWithPrefix(wo) ) {
-				if (tempst.get(wo) == tempst.get((String) each)) {
-					queue.enqueue((String) each);
-					count++;
-					if (count == k) {
-						return queue;
-						
+			temp = wo;
+			for (String iwo : words) {
+				if (tempst.get(wo) < tempst.get((String) iwo)) {
+					temp = iwo;
+				} else if (tempst.get(wo) == tempst.get((String) iwo)) {
+					if (wo.length() < iwo.length()) {
+						temp = iwo;
+
+					} else if (wo.length() > iwo.length()) {
+						temp = wo;
 					}
-				} 
-				// else if (wo.length() == ((String) each).length()) {
-				// 	queue.enqueue((String) each);
-				// }
+				}
 
 			}
+
+			queue.enqueue((String) temp);
+			/*			for (Object each : dict.keysWithPrefix(wo) ) {
+							if (tempst.get(wo) == tempst.get((String) each)) {
+								queue.enqueue((String) each);
+								count++;
+								if (count == k) {
+									return queue;
+
+								}
+							}
+							// else if (wo.length() == ((String) each).length()) {
+							// 	queue.enqueue((String) each);
+							// }
+
+						}*/
 		}
 		return queue;
 	}
