@@ -138,19 +138,23 @@ class T9 {
 		for (String wo : words) {
 			temp = wo;
 			for (String iwo : words) {
-				if (tempst.get(wo) < tempst.get((String) iwo)) {
-					temp = iwo;
-					count++;
-				} else if (tempst.get(wo) == tempst.get((String) iwo)) {
-					if (wo.length() < iwo.length()) {
-						temp = iwo;
-						count++;
+				// if (dict.keysWithPrefix(prefix)) {
+					
+				// }
+				System.out.println(dict.keysWithPrefix(wo));
+				// if (tempst.get(wo) < tempst.get((String) iwo)) {
+				// 	temp = iwo;
+				// 	count++;
+				// } else if (tempst.get(wo) == tempst.get((String) iwo)) {
+				// 	if (wo.length() < iwo.length()) {
+				// 		temp = iwo;
+				// 		// count++;
 
-					} else if (wo.length() > iwo.length()) {
-						temp = wo;
-						count++;
-					}
-				}
+				// 	} else if (wo.length() > iwo.length()) {
+				// 		temp = wo;
+				// 		count++;
+				// 	}
+				// }
 				if (count == k) {
 					return queue;
 

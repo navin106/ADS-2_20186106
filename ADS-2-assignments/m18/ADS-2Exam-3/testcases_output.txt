@@ -169,7 +169,48 @@ right
 words
 
 Your Output: 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+is isaiahd isare iscoming ish ishtamayoohappy island islands islove isnt issue issues isvimportant 
+within 
+within 
+within 
+within 
+within 
+within 
+words wordsevry 
+words wordsevry 
+words wordsevry 
+words wordsevry 
+words wordsevry 
+words wordsevry 
+rights 
+rights 
+rights 
+rights 
+rights 
+rights 
+right rightio rightly rights 
+right rightio rightly rights 
+right rightio rightly rights 
+right rightio rightly rights 
+right rightio rightly rights 
+right rightio rightly rights 
+hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
+hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
+hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
+hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
+hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
+hello hellodrivbyquit helloed hellogorgeous hellohow helloooo 
 is
+within
+words
+rights
+right
+hello
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -223,7 +264,7 @@ keep
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at T9.getSuggestions(Solution.java:138)
-	at T9.t9(Solution.java:168)
+	at T9.t9(Solution.java:172)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 

@@ -40,7 +40,7 @@ import java.util.NoSuchElementException;
 public class Queue<Item> implements Iterable<Item> {
 	private Node<Item> first;    // beginning of queue
 	private Node<Item> last;     // end of queue
-	private int n;               // number of elements on queue
+	public int n;               // number of elements on queue
 
 	// helper linked list class
 	private static class Node<Item> {

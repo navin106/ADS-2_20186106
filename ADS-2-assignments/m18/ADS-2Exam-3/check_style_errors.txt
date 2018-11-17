@@ -235,6 +235,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:41:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:42:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:43:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:43:20: Variable 'n' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:46: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:47:17: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:48:17: Missing a Javadoc comment. [JavadocVariable]
@@ -262,7 +263,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:153:17: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Queue.java:154: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/In.java:56:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/In.java:59:9: Missing a Javadoc comment. [JavadocVariable]
@@ -495,9 +496,11 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:133:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:133:48: Parameter words should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:133:72: Parameter k should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:144: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:167:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:167:36: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:167:56: Parameter k should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:142: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:145: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:148: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:171:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:171:36: Parameter t9Signature should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m18/ADS-2Exam-3/Solution.java:171:56: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 31 errors.
+Checkstyle ends with 33 errors.
