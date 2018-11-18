@@ -24,7 +24,7 @@ final class Solution {
             String[] suffixes = new String[n];
             for (int j = 0; j < n; j++) {
                 suffixes[j] = words[i].substring(j, n);
-                tst.put(suffixes[j], 5);
+                tst.put(suffixes[j], 2+2+1);
 
             }
 
