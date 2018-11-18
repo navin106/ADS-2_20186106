@@ -14,7 +14,7 @@ public class LSD {
 			// compute frequency counts
 			int[] count = new int[radix + 1];
 			for (int i = 0; i < n; i++) {
-				System.out.println(a[i].charAt(d));
+				// System.out.println(a[i].charAt(d));
 				count[a[i].charAt(d) + 1]++;
 				// System.out.println(Arrays.toString(count));
 			}
