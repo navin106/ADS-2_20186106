@@ -1,8 +1,21 @@
 import java.util.Arrays;
+/**
+ * Class for lsd.
+ */
 public class LSD {
+
+	/**
+	 * Constructs the object.
+	 */
 	public LSD() {
 
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      a     { parameter_description }
+	 * @param      w     { parameter_description }
+	 */
 	public static void sort(final String[] a, final int w) {
 		int n = a.length;
 		final int radix = 256;   // extend ASCII alphabet size

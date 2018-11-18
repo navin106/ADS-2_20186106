@@ -1,5 +1,19 @@
 import java.util.Scanner;
+/**
+ * sloution class.
+ */
 public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		LSD lsd = new LSD();

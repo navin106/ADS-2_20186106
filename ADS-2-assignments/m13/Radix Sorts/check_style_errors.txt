@@ -1,18 +1,12 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:3:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/LSD.java:13: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:3:33: Parameter args should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:12: First sentence should end with a period. [JavadocStyle]
+[ERROR] /home/naveen/Documents/ADS-2_20186106/ADS-2-assignments/m13/Radix Sorts/Solution.java:17:33: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 3 errors.
