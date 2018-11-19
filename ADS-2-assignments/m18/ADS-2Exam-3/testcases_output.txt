@@ -173,12 +173,6 @@ words
 hello
 right
 is
-hello
-right
-rights
-words
-within
-is
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########

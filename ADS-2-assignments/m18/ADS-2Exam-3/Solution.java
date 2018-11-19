@@ -141,8 +141,8 @@ class T9 {
         for (String each : words) {
             freq.insert((Integer) dict.get(each));
         }
-        for (String wo : words) {
-			tbag.add(wo);
+        // for (String wo : words) {
+			// tbag.add(wo);
 			// temp = wo;
 			// for (String iwo : words) {
 			// if (dict.keysWithPrefix(prefix)) {
@@ -168,7 +168,7 @@ class T9 {
 			// }
 
 			// queue.enqueue((String) temp);
-		}
+		// }
         
         for (int i = 0; i < k; i++) {
             int value = freq.delMax();
