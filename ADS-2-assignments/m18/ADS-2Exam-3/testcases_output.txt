@@ -92,7 +92,7 @@ messagesome
 going
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 hello
 pizza
@@ -157,70 +157,11 @@ fine
 seeking
 
 Your Output: 
-hello
-pizza
-what
-sunday
-ball
-call
-involve
-finish
-gone
-good
-home
-battery
-friends
-watches
-morning
-tonight
-shop
-phne
-any
-bmw
-box
-boy
-coz
-jay
-jaz
-kay
-law
-lay
-ammo
-das
-ear
-far
-send
-pocked
-pest
-rest
-woo
-paying
-saying
-james
-lands
-hates
-casting
-packing
-peeps
-bam
-bao
-cam
-can
-abt
-act
-bat
-cat
-mines
-liver
-lives
-dime
-dine
-find
-fine
-seeking
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 hello
 is
@@ -228,10 +169,16 @@ right
 words
 
 Your Output: 
-hello
-is
-right
 words
+hello
+right
+is
+hello
+right
+rights
+words
+within
+is
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -283,56 +230,9 @@ paper
 keep
 
 Your Output: 
-update
-record
-immediately
-bristol
-ball
-call
-spoil
-kiss
-lips
-pints
-alone
-blood
-shop
-any
-boy
-coz
-pay
-saw
-say
-goods
-inner
-cards
-cares
-rate
-save
-card
-care
-case
-happy
-sales
-bone
-come
-poker
-roles
-real
-maps
-itor
-paces
-adds
-beer
-bffs
-jane
-kane
-lane
-chef
-ages
-aids
-bids
-paper
-pases
-keep
+Exception in thread "main" java.lang.NullPointerException
+	at T9.getSuggestions(Solution.java:141)
+	at T9.t9(Solution.java:198)
+	at Solution.main(Solution.java:71)
 ----------------------------------------
 
