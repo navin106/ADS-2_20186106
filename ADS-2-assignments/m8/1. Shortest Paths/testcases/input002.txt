@@ -1,6 +1,6 @@
 41 513
-otczsoicC XGTnHWQF pbvGxgEOK XRlOlO KH ftLbpwSJE YcNGT B qechPrZ lkjghhf fotFxJLp NKbHEcXZPX EqihrxOT t IKhq YwIOLIQ XfftcqVMu v pUgfKesyYn MOAHWiC lm w IeHllEVzq vhnSkhxCTS Lczxcn FlWU Lj tBck DkYdCSVjNh HVhxWrtj USxR irjZXTwx ortB p GVRI RxIngPuQ yROJA Bbdt kfLdv DRWoc HLuWW
-otczsoicC XGTnHWQF 18
+d XGTnHWQF pbvGxgEOK XRlOlO KH ftLbpwSJE YcNGT B qechPrZ lkjghhf fotFxJLp NKbHEcXZPX EqihrxOT t IKhq YwIOLIQ XfftcqVMu v pUgfKesyYn MOAHWiC lm w IeHllEVzq vhnSkhxCTS Lczxcn FlWU Lj tBck DkYdCSVjNh HVhxWrtj USxR irjZXTwx ortB p GVRI RxIngPuQ yROJA Bbdt kfLdv DRWoc HLuWW
+d XGTnHWQF 18
 XGTnHWQF pbvGxgEOK 78
 pbvGxgEOK XRlOlO 28
 XRlOlO KH 19
@@ -42,17 +42,17 @@ kfLdv DRWoc 49
 DRWoc HLuWW 92
 pbvGxgEOK vhnSkhxCTS 20
 t HVhxWrtj 43
-otczsoicC tBck 37
+d tBck 37
 lkjghhf HVhxWrtj 44
 XRlOlO YcNGT 17
 pbvGxgEOK IeHllEVzq 80
 t v 40
-otczsoicC fotFxJLp 80
+d fotFxJLp 80
 XRlOlO HVhxWrtj 73
 Lczxcn DkYdCSVjNh 59
 IeHllEVzq Lj 67
 XRlOlO MOAHWiC 12
-otczsoicC pbvGxgEOK 84
+d pbvGxgEOK 84
 p yROJA 63
 B Lczxcn 74
 B IKhq 96
@@ -72,13 +72,13 @@ ftLbpwSJE yROJA 24
 Lczxcn irjZXTwx 10
 XRlOlO w 10
 IeHllEVzq yROJA 50
-otczsoicC lm 32
+d lm 32
 FlWU RxIngPuQ 98
 t YwIOLIQ 43
 ftLbpwSJE fotFxJLp 85
 pbvGxgEOK pUgfKesyYn 72
 XGTnHWQF YcNGT 77
-otczsoicC ftLbpwSJE 13
+d ftLbpwSJE 13
 pUgfKesyYn IeHllEVzq 57
 pbvGxgEOK B 73
 qechPrZ IKhq 79
@@ -109,9 +109,9 @@ NKbHEcXZPX USxR 44
 qechPrZ EqihrxOT 78
 MOAHWiC Lj 90
 IKhq XfftcqVMu 60
-otczsoicC Bbdt 95
+d Bbdt 95
 qechPrZ RxIngPuQ 15
-otczsoicC YcNGT 67
+d YcNGT 67
 t tBck 23
 B MOAHWiC 6
 pbvGxgEOK EqihrxOT 59
@@ -135,15 +135,15 @@ ftLbpwSJE IKhq 78
 lkjghhf EqihrxOT 93
 v MOAHWiC 7
 B yROJA 13
-otczsoicC XRlOlO 46
+d XRlOlO 46
 t IeHllEVzq 55
 XfftcqVMu IeHllEVzq 23
 XfftcqVMu kfLdv 46
 EqihrxOT RxIngPuQ 43
 XfftcqVMu USxR 57
-otczsoicC XfftcqVMu 1
+d XfftcqVMu 1
 XfftcqVMu RxIngPuQ 57
-otczsoicC KH 26
+d KH 26
 ftLbpwSJE qechPrZ 49
 KH Lczxcn 51
 IeHllEVzq DRWoc 89
@@ -193,7 +193,7 @@ XRlOlO qechPrZ 47
 B XfftcqVMu 67
 tBck RxIngPuQ 27
 XGTnHWQF qechPrZ 99
-otczsoicC qechPrZ 4
+d qechPrZ 4
 IKhq w 44
 fotFxJLp RxIngPuQ 39
 YcNGT GVRI 8
@@ -206,14 +206,14 @@ YcNGT IeHllEVzq 77
 XRlOlO XfftcqVMu 91
 ftLbpwSJE ortB 82
 IeHllEVzq USxR 61
-otczsoicC B 93
+d B 93
 tBck USxR 17
 YcNGT v 98
 pbvGxgEOK Bbdt 88
 ftLbpwSJE Lczxcn 27
 KH ortB 67
 pUgfKesyYn GVRI 88
-otczsoicC irjZXTwx 43
+d irjZXTwx 43
 v FlWU 28
 IeHllEVzq FlWU 33
 qechPrZ XfftcqVMu 32
@@ -244,7 +244,7 @@ XGTnHWQF ortB 96
 HVhxWrtj ortB 49
 HVhxWrtj RxIngPuQ 97
 NKbHEcXZPX yROJA 67
-otczsoicC w 44
+d w 44
 ftLbpwSJE EqihrxOT 5
 XGTnHWQF YwIOLIQ 44
 ftLbpwSJE t 87
@@ -290,8 +290,8 @@ ftLbpwSJE vhnSkhxCTS 10
 XfftcqVMu vhnSkhxCTS 19
 t kfLdv 37
 fotFxJLp Bbdt 3
-otczsoicC Lczxcn 93
-otczsoicC t 1
+d Lczxcn 93
+d t 1
 fotFxJLp IeHllEVzq 56
 B EqihrxOT 87
 XGTnHWQF lm 78
@@ -303,7 +303,7 @@ EqihrxOT yROJA 83
 IKhq Lj 10
 qechPrZ YwIOLIQ 94
 NKbHEcXZPX HVhxWrtj 64
-otczsoicC EqihrxOT 82
+d EqihrxOT 82
 FlWU tBck 28
 EqihrxOT IKhq 44
 B DkYdCSVjNh 35
@@ -338,7 +338,7 @@ tBck HVhxWrtj 88
 Lczxcn Bbdt 11
 XfftcqVMu lm 69
 XfftcqVMu DRWoc 60
-otczsoicC lkjghhf 69
+d lkjghhf 69
 lm kfLdv 73
 Lczxcn GVRI 29
 tBck p 73
@@ -385,14 +385,14 @@ XfftcqVMu irjZXTwx 13
 KH EqihrxOT 31
 KH MOAHWiC 58
 EqihrxOT pUgfKesyYn 91
-otczsoicC DRWoc 85
+d DRWoc 85
 w HVhxWrtj 47
 B pUgfKesyYn 50
 qechPrZ IeHllEVzq 46
 KH irjZXTwx 24
 v kfLdv 36
 ortB Bbdt 7
-otczsoicC NKbHEcXZPX 21
+d NKbHEcXZPX 21
 qechPrZ w 92
 ftLbpwSJE DRWoc 34
 lm USxR 53
@@ -409,14 +409,14 @@ lkjghhf w 70
 YwIOLIQ Lj 26
 lkjghhf Bbdt 16
 lkjghhf DRWoc 21
-otczsoicC IKhq 59
+d IKhq 59
 YwIOLIQ IeHllEVzq 73
 IeHllEVzq DkYdCSVjNh 10
 v lm 13
 w DkYdCSVjNh 19
 B irjZXTwx 89
 pUgfKesyYn p 9
-otczsoicC RxIngPuQ 3
+d RxIngPuQ 3
 XGTnHWQF XfftcqVMu 67
 EqihrxOT MOAHWiC 43
 RxIngPuQ kfLdv 33
@@ -495,7 +495,7 @@ lkjghhf RxIngPuQ 44
 IeHllEVzq kfLdv 20
 fotFxJLp lm 41
 fotFxJLp DRWoc 17
-otczsoicC Lj 82
+d Lj 82
 IeHllEVzq p 23
 KH USxR 38
 qechPrZ tBck 26
@@ -507,7 +507,7 @@ YwIOLIQ w 95
 YwIOLIQ v 44
 YcNGT qechPrZ 59
 lkjghhf MOAHWiC 79
-otczsoicC USxR 51
+d USxR 51
 FlWU ortB 74
 MOAHWiC IeHllEVzq 46
 ftLbpwSJE RxIngPuQ 22
@@ -518,7 +518,7 @@ YwIOLIQ XRlOlO
 t EqihrxOT
 EqihrxOT ftLbpwSJE
 t fotFxJLp
-vhnSkhxCTS otczsoicC
+vhnSkhxCTS d
 pUgfKesyYn NKbHEcXZPX
 fotFxJLp lkjghhf
 yROJA lm
@@ -526,7 +526,7 @@ YwIOLIQ XRlOlO
 IeHllEVzq XGTnHWQF
 lm IKhq
 HVhxWrtj lm
-KH otczsoicC
+KH d
 v fotFxJLp
 t KH
 lkjghhf qechPrZ
@@ -543,7 +543,7 @@ vhnSkhxCTS fotFxJLp
 YwIOLIQ fotFxJLp
 fotFxJLp KH
 DkYdCSVjNh w
-IKhq otczsoicC
+IKhq d
 Bbdt IeHllEVzq
 pUgfKesyYn fotFxJLp
 HVhxWrtj MOAHWiC
@@ -567,13 +567,13 @@ qechPrZ ftLbpwSJE
 kfLdv tBck
 pUgfKesyYn qechPrZ
 fotFxJLp XRlOlO
-KH otczsoicC
+KH d
 MOAHWiC YwIOLIQ
 YwIOLIQ XRlOlO
 KH XRlOlO
 qechPrZ XGTnHWQF
 YwIOLIQ NKbHEcXZPX
-tBck otczsoicC
+tBck d
 yROJA B
 DkYdCSVjNh XfftcqVMu
 lkjghhf qechPrZ
@@ -587,7 +587,7 @@ XRlOlO pbvGxgEOK
 NKbHEcXZPX XGTnHWQF
 irjZXTwx qechPrZ
 B ftLbpwSJE
-XGTnHWQF otczsoicC
+XGTnHWQF d
 irjZXTwx fotFxJLp
 FlWU t
 fotFxJLp pbvGxgEOK
@@ -602,10 +602,10 @@ w YwIOLIQ
 lm B
 YwIOLIQ B
 vhnSkhxCTS pUgfKesyYn
-XGTnHWQF otczsoicC
+XGTnHWQF d
 irjZXTwx DkYdCSVjNh
 IeHllEVzq lkjghhf
-IeHllEVzq otczsoicC
+IeHllEVzq d
 DRWoc MOAHWiC
 IKhq fotFxJLp
 Lczxcn IeHllEVzq
@@ -641,7 +641,7 @@ qechPrZ ftLbpwSJE
 XfftcqVMu qechPrZ
 lm MOAHWiC
 B XGTnHWQF
-irjZXTwx otczsoicC
+irjZXTwx d
 p USxR
 YcNGT ftLbpwSJE
 HVhxWrtj lm
@@ -657,7 +657,7 @@ vhnSkhxCTS qechPrZ
 USxR YwIOLIQ
 fotFxJLp YcNGT
 pUgfKesyYn ftLbpwSJE
-XGTnHWQF otczsoicC
+XGTnHWQF d
 XfftcqVMu fotFxJLp
 EqihrxOT qechPrZ
 t NKbHEcXZPX
@@ -675,7 +675,7 @@ tBck IeHllEVzq
 FlWU EqihrxOT
 yROJA w
 IeHllEVzq t
-XGTnHWQF otczsoicC
+XGTnHWQF d
 XRlOlO pbvGxgEOK
 IeHllEVzq lm
 DkYdCSVjNh Lczxcn
@@ -693,13 +693,13 @@ vhnSkhxCTS t
 v EqihrxOT
 irjZXTwx NKbHEcXZPX
 fotFxJLp KH
-qechPrZ otczsoicC
+qechPrZ d
 YwIOLIQ YcNGT
 fotFxJLp YcNGT
 GVRI IeHllEVzq
 w MOAHWiC
 RxIngPuQ t
-EqihrxOT otczsoicC
+EqihrxOT d
 vhnSkhxCTS EqihrxOT
 lm EqihrxOT
 t KH
@@ -716,15 +716,15 @@ v XGTnHWQF
 Lczxcn MOAHWiC
 YwIOLIQ ftLbpwSJE
 v fotFxJLp
-XGTnHWQF otczsoicC
-XRlOlO otczsoicC
+XGTnHWQF d
+XRlOlO d
 qechPrZ YcNGT
 irjZXTwx qechPrZ
 tBck ftLbpwSJE
 RxIngPuQ XGTnHWQF
 v XfftcqVMu
 USxR w
-XfftcqVMu otczsoicC
+XfftcqVMu d
 RxIngPuQ EqihrxOT
 Lj XfftcqVMu
 w lkjghhf
@@ -746,20 +746,20 @@ IeHllEVzq lm
 p MOAHWiC
 ortB YwIOLIQ
 YcNGT XRlOlO
-fotFxJLp otczsoicC
+fotFxJLp d
 Lj XGTnHWQF
 kfLdv NKbHEcXZPX
-pbvGxgEOK otczsoicC
+pbvGxgEOK d
 t EqihrxOT
-DRWoc otczsoicC
+DRWoc d
 YcNGT ftLbpwSJE
 lkjghhf pbvGxgEOK
 lm KH
 DRWoc lkjghhf
-XRlOlO otczsoicC
+XRlOlO d
 NKbHEcXZPX KH
-B otczsoicC
-XGTnHWQF otczsoicC
+B d
+XGTnHWQF d
 EqihrxOT pbvGxgEOK
 ortB pbvGxgEOK
 yROJA irjZXTwx
@@ -790,7 +790,7 @@ qechPrZ ftLbpwSJE
 XRlOlO XGTnHWQF
 RxIngPuQ fotFxJLp
 FlWU fotFxJLp
-XGTnHWQF otczsoicC
+XGTnHWQF d
 RxIngPuQ w
 w B
 w lm
@@ -804,11 +804,11 @@ B XRlOlO
 p XfftcqVMu
 vhnSkhxCTS XGTnHWQF
 MOAHWiC ftLbpwSJE
-qechPrZ otczsoicC
-w otczsoicC
+qechPrZ d
+w d
 EqihrxOT B
 pUgfKesyYn lkjghhf
-ftLbpwSJE otczsoicC
+ftLbpwSJE d
 YwIOLIQ NKbHEcXZPX
 p IeHllEVzq
 HVhxWrtj XRlOlO
@@ -822,7 +822,7 @@ NKbHEcXZPX XGTnHWQF
 lkjghhf pbvGxgEOK
 DRWoc lkjghhf
 v B
-XGTnHWQF otczsoicC
+XGTnHWQF d
 RxIngPuQ DkYdCSVjNh
 FlWU YcNGT
 v KH
@@ -834,7 +834,7 @@ lkjghhf ftLbpwSJE
 v KH
 XfftcqVMu XRlOlO
 Lj YcNGT
-XRlOlO otczsoicC
+XRlOlO d
 v YcNGT
 vhnSkhxCTS IKhq
 KH XRlOlO
@@ -846,7 +846,7 @@ B KH
 yROJA t
 Bbdt FlWU
 v XRlOlO
-XGTnHWQF otczsoicC
+XGTnHWQF d
 tBck IeHllEVzq
 XfftcqVMu pbvGxgEOK
 w B

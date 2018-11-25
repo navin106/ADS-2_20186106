@@ -1,0 +1,10 @@
+[master 0feca53] "ads2_m16_a1_1: 30/30 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 6 files changed, 75 insertions(+), 93 deletions(-)
+ rewrite ADS-2-assignments/m16/boggle/Solution.class (72%)
+ rewrite ADS-2-assignments/m16/boggle/Solution.java (97%)
+ rewrite ADS-2-assignments/m16/boggle/check_style_errors.txt (78%)
+ create mode 100644 ADS-2-assignments/m16/boggle/md5/score.txt
+ create mode 100644 ADS-2-assignments/m16/boggle/result/score.json
+To https://github.com/navin106/ADS-2_20186106.git
+   289313f..0feca53  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

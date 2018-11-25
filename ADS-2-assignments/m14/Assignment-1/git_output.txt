@@ -1,0 +1,10 @@
+[master 2447a46] "ads2_m14_a1_1: 6/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 6 files changed, 12 insertions(+), 275 deletions(-)
+ rewrite ADS-2-assignments/m14/Assignment-1/check_style_errors.txt (98%)
+ rename ADS-2-assignments/m14/Assignment-1/{ => jFiles}/In.java (100%)
+ rename ADS-2-assignments/m14/Assignment-1/{ => jFiles}/Queue.java (100%)
+ rename ADS-2-assignments/m14/Assignment-1/{ => jFiles}/TST.java (100%)
+ create mode 100644 ADS-2-assignments/m14/Assignment-1/md5/score.txt
+ create mode 100644 ADS-2-assignments/m14/Assignment-1/result/score.json
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/navin106/ADS-2_20186106.git/'
