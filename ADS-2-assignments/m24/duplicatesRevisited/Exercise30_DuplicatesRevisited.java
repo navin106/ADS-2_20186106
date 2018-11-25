@@ -83,17 +83,17 @@ public class Exercise30_DuplicatesRevisited  {
                 "Max Value | ", "Time spent");
 
         int[] initialValues = {1000, 10000, 100000, 1000000};
-        int[] bigValues = {10000000, 100000000, 1000000000};
+        int[] bigValues = {10000000};
 
         // Generating integer values
-        countDistinctValues(false, false, initialValues);
-        countDistinctValues(true, false, initialValues);
-        countDistinctValues(true, false, bigValues);
+        // countDistinctValues(false, false, initialValues);
+        // countDistinctValues(true, false, initialValues);
+        countDistinctValues(true, true, bigValues);
 
         // Generating long values
-        countDistinctValues(false, true, initialValues);
-        countDistinctValues(true, true, initialValues);
-        countDistinctValues(true, true, bigValues);
+        // countDistinctValues(false, true, initialValues);
+        // countDistinctValues(true, true, initialValues);
+        countDistinctValues(false, true, bigValues);
     }
 
     public void countDistinctValues(boolean useDedup, boolean generateLongValues, int[] values) {
