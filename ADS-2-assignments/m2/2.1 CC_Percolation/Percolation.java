@@ -1,7 +1,7 @@
 /**
  * Class for percolation.
  */
-class Percolation {
+public class Percolation {
     /**
      * {Declaring an object of weighted quick union}.
      */
