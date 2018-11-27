@@ -1,5 +1,0 @@
-[master 02694d5] "ads2_m6_a1_1: 4/12 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
- 6 files changed, 27 insertions(+), 26 deletions(-)
- rewrite ADS-2-assignments/m6/ADS-2Week-1/PageRank.class (72%)
- rewrite ADS-2-assignments/m6/ADS-2Week-1/result/score.json (100%)
-fatal: unable to access 'https://github.com/navin106/ADS-2_20186106.git/': Failed to connect to 10.10.10.3 port 3128: Connection timed out
