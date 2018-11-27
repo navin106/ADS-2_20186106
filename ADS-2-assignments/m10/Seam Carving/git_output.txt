@@ -1,8 +1,0 @@
-[master 21c27fb] "ads2_m10_a1_1: 9/9 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
- 6 files changed, 757 insertions(+), 185 deletions(-)
- rewrite ADS-2-assignments/m10/Seam Carving/SeamCarver.class (100%)
- rewrite ADS-2-assignments/m10/Seam Carving/SeamCarver.java (97%)
- rewrite ADS-2-assignments/m10/Seam Carving/result/score.json (100%)
-To https://github.com/navin106/ADS-2_20186106.git
-   d50fb8b..21c27fb  master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
