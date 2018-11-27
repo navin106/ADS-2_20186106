@@ -1,7 +1,0 @@
-[master 16836df] "ads2_m3_a1_1: 8/8 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
- 5 files changed, 4 insertions(+), 6 deletions(-)
- create mode 100644 ADS-2-assignments/m3/3.1 Directed Cycle/md5/score.txt
- create mode 100644 ADS-2-assignments/m3/3.1 Directed Cycle/result/score.json
-To https://github.com/navin106/ADS-2_20186106.git
-   96e82ca..16836df  master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
