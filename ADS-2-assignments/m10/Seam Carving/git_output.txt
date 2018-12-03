@@ -1,0 +1,4 @@
+[master 6b97e87] "ads2_m10_a1_1: 9/9 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ rewrite ADS-2-assignments/m10/Seam Carving/result/score.json (100%)
+fatal: unable to access 'https://github.com/navin106/ADS-2_20186106.git/': Failed to connect to 10.10.10.3 port 3128: Connection refused

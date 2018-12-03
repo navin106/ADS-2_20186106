@@ -1,0 +1,10 @@
+[master 496f48e] "ads2_m3_a1_1: 8/8 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 5 files changed, 6 insertions(+), 77 deletions(-)
+ rewrite ADS-2-assignments/m3/3.1 Directed Cycle/check_style_errors.txt (99%)
+ rename ADS-2-assignments/m3/3.1 Directed Cycle/{ => jFiles}/Bag.java (100%)
+ rename ADS-2-assignments/m3/3.1 Directed Cycle/{ => jFiles}/Digraph.java (100%)
+ rename ADS-2-assignments/m3/3.1 Directed Cycle/{ => jFiles}/DirectedCycle.java (100%)
+ rename ADS-2-assignments/m3/3.1 Directed Cycle/{ => jFiles}/Stack.java (100%)
+To https://github.com/navin106/ADS-2_20186106.git
+   6deaa28..496f48e  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

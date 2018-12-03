@@ -1,0 +1,23 @@
+[master 81cbadc] "ads2_m4_a1_1: 14/15 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 32 files changed, 19 insertions(+), 565 deletions(-)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/BreadthFirstDirectedPaths.class (88%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/Digraph.class (98%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/In.class (94%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/SAP.class (73%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/Solution.class (92%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/WordNet.class (90%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/check_style_errors.txt (98%)
+ rewrite ADS-2-assignments/m4/Code Camp - WordNet/WordNet/git_output.txt (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/Bag.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/BreadthFirstDirectedPaths.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/Digraph.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/DirectedCycle.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/In.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/Queue.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/SAP.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/Stack.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/StdIn.java (100%)
+ rename ADS-2-assignments/m4/Code Camp - WordNet/WordNet/{ => jFiles}/WordNet.java (100%)
+To https://github.com/navin106/ADS-2_20186106.git
+   9d1ac24..81cbadc  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
